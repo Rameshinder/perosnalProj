@@ -1,0 +1,2119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Card should handle onClick 1`] = `
+.c0 {
+  overflow: auto;
+  color: #494949;
+  height: 350px;
+  overflow: auto;
+}
+
+.c0 img {
+  display: inline-block;
+  width: 64px;
+}
+
+.c0 a {
+  color: #494949;
+  display: block;
+}
+
+.c0 a:hover {
+  background-color: #e5f4fa;
+}
+
+.c0 a:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #004165;
+  color: #fff !important;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.c1 {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.c2 {
+  padding: 0;
+}
+
+.c2:hover {
+  background-color: #e5f4fa;
+}
+
+.c2:focus {
+  background-color: #004165;
+  border: none;
+  outline: none;
+}
+
+.c3 {
+  display: block;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 16px 24px;
+  border-left: none;
+  border-right: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border-bottom: 1px solid #cdcdcd;
+  text-style: none;
+}
+
+.c3 img {
+  height: 32px;
+  border-radius: 3px;
+}
+
+.c3 svg {
+  color: #494949;
+}
+
+.c3 span[data-tooltip] {
+  display: block;
+}
+
+.c3 span[data-tooltip] div {
+  opacity: 1 !important;
+}
+
+.c4 {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 12px;
+  height: 35px;
+}
+
+.c4 span {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c4 p {
+  margin-bottom: 0;
+}
+
+.c5 {
+  font-family: myriad-pro;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px;
+  -webkit-letter-spacing: -0.1px;
+  -moz-letter-spacing: -0.1px;
+  -ms-letter-spacing: -0.1px;
+  letter-spacing: -0.1px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.c6 {
+  font-family: myriad-pro;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px;
+  -webkit-letter-spacing: -0.1px;
+  -moz-letter-spacing: -0.1px;
+  -ms-letter-spacing: -0.1px;
+  letter-spacing: -0.1px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+@media (max-width:480px) {
+  .c4 {
+    max-width: 220px;
+  }
+
+  .c4 span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+<CardList
+  cards={
+    Array [
+      Object {
+        "activationRequired": false,
+        "cardSetID": "4072200010054642",
+        "category": "CREDIT",
+        "designCode": "0",
+        "eligibleFor": Array [
+          "AppleWalletProvisioning",
+          "CardActivation",
+          "SetPin",
+          "ShowTC",
+        ],
+        "name": "MR PATRICK GLEN WILKINS",
+        "number": "4072200010054642",
+        "primary": true,
+        "productCode": "PCP",
+        "productSubCode": "008",
+        "reissued": false,
+        "status": "",
+        "type": "ANZ Frequent Flyer Platinum Visa",
+      },
+      Object {
+        "activationRequired": false,
+        "cardSetID": "4622397029822304",
+        "category": "DEBIT",
+        "designCode": "0",
+        "eligibleFor": Array [
+          "CardActivation",
+          "ShowTC",
+          "SetPin",
+        ],
+        "name": "MR PATRICK GLEN WILKINS",
+        "number": "4622397029822304",
+        "primary": true,
+        "productCode": "PCP",
+        "productSubCode": "061",
+        "reissued": false,
+        "status": "",
+        "type": "ANZ Frequent Flyer Platinum Visa",
+      },
+      Object {
+        "activationRequired": false,
+        "cardSetID": "5432397029822001",
+        "category": "CREDIT",
+        "designCode": "0",
+        "eligibleFor": Array [
+          "CardActivation",
+          "SetPin",
+          "ShowTC",
+        ],
+        "name": "MR PATRICK GLEN WILKINS",
+        "number": "5432397029822001",
+        "primary": true,
+        "productCode": "PCP",
+        "productSubCode": "061",
+        "reissued": false,
+        "status": "",
+        "type": "ANZ Frequent Flyer Platinum Master Card",
+      },
+    ]
+  }
+  handleCardSelection={[Function]}
+>
+  <styled.div>
+    <div
+      className="c0"
+    >
+      <styled.ul>
+        <ul
+          className="c1"
+        >
+          <styled.li
+            key="Card-0"
+          >
+            <li
+              className="c2"
+            >
+              <a
+                data-test-id="card-link-0"
+                id="card-link-0"
+                name="card-link-0"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                tabIndex={0}
+              >
+                <styled.div
+                  data-test-id="card-list-0"
+                  nonEligible={false}
+                >
+                  <div
+                    className="c3"
+                    data-test-id="card-list-0"
+                  >
+                    <img
+                      alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                      src="assets/BaseProd_2_IMG_17.png"
+                    />
+                    <styled.div
+                      data-test-id="case-details-0"
+                    >
+                      <div
+                        className="c4"
+                        data-test-id="case-details-0"
+                      >
+                        <styled.p
+                          data-test-id="card-name-0"
+                          id="Cardnameinthelist"
+                          semiBold={true}
+                        >
+                          <p
+                            className="c5"
+                            data-test-id="card-name-0"
+                            id="Cardnameinthelist"
+                          >
+                            ANZ Frequent Flyer Platinum Visa
+                          </p>
+                        </styled.p>
+                        <styled.p
+                          data-test-id="card-num-0"
+                          id="Cardnumberinthelist"
+                        >
+                          <p
+                            className="c6"
+                            data-test-id="card-num-0"
+                            id="Cardnumberinthelist"
+                          >
+                            4072200010054642
+                          </p>
+                        </styled.p>
+                      </div>
+                    </styled.div>
+                  </div>
+                </styled.div>
+              </a>
+            </li>
+          </styled.li>
+          <styled.li
+            key="Card-1"
+          >
+            <li
+              className="c2"
+            >
+              <a
+                data-test-id="card-link-1"
+                id="card-link-1"
+                name="card-link-1"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                tabIndex={0}
+              >
+                <styled.div
+                  data-test-id="card-list-1"
+                  nonEligible={false}
+                >
+                  <div
+                    className="c3"
+                    data-test-id="card-list-1"
+                  >
+                    <img
+                      alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                      src="assets/BaseProd_2_IMG_19.png"
+                    />
+                    <styled.div
+                      data-test-id="case-details-1"
+                    >
+                      <div
+                        className="c4"
+                        data-test-id="case-details-1"
+                      >
+                        <styled.p
+                          data-test-id="card-name-1"
+                          id="Cardnameinthelist"
+                          semiBold={true}
+                        >
+                          <p
+                            className="c5"
+                            data-test-id="card-name-1"
+                            id="Cardnameinthelist"
+                          >
+                            ANZ Frequent Flyer Platinum Visa
+                          </p>
+                        </styled.p>
+                        <styled.p
+                          data-test-id="card-num-1"
+                          id="Cardnumberinthelist"
+                        >
+                          <p
+                            className="c6"
+                            data-test-id="card-num-1"
+                            id="Cardnumberinthelist"
+                          >
+                            4622397029822304
+                          </p>
+                        </styled.p>
+                      </div>
+                    </styled.div>
+                  </div>
+                </styled.div>
+              </a>
+            </li>
+          </styled.li>
+          <styled.li
+            key="Card-2"
+          >
+            <li
+              className="c2"
+            >
+              <a
+                data-test-id="card-link-2"
+                id="card-link-2"
+                name="card-link-2"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                tabIndex={0}
+              >
+                <styled.div
+                  data-test-id="card-list-2"
+                  nonEligible={false}
+                >
+                  <div
+                    className="c3"
+                    data-test-id="card-list-2"
+                  >
+                    <img
+                      alt="image of card type ANZ Frequent Flyer Platinum Master Card"
+                      src="assets/BaseProd_2_IMG_19.png"
+                    />
+                    <styled.div
+                      data-test-id="case-details-2"
+                    >
+                      <div
+                        className="c4"
+                        data-test-id="case-details-2"
+                      >
+                        <styled.p
+                          data-test-id="card-name-2"
+                          id="Cardnameinthelist"
+                          semiBold={true}
+                        >
+                          <p
+                            className="c5"
+                            data-test-id="card-name-2"
+                            id="Cardnameinthelist"
+                          >
+                            ANZ Frequent Flyer Platinum Master Card
+                          </p>
+                        </styled.p>
+                        <styled.p
+                          data-test-id="card-num-2"
+                          id="Cardnumberinthelist"
+                        >
+                          <p
+                            className="c6"
+                            data-test-id="card-num-2"
+                            id="Cardnumberinthelist"
+                          >
+                            5432397029822001
+                          </p>
+                        </styled.p>
+                      </div>
+                    </styled.div>
+                  </div>
+                </styled.div>
+              </a>
+            </li>
+          </styled.li>
+        </ul>
+      </styled.ul>
+    </div>
+  </styled.div>
+</CardList>
+`;
+
+exports[`Card renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CardList
+    cards={
+      Array [
+        Object {
+          "activationRequired": false,
+          "cardSetID": "4072200010054642",
+          "category": "CREDIT",
+          "designCode": "0",
+          "eligibleFor": Array [
+            "AppleWalletProvisioning",
+            "CardActivation",
+            "SetPin",
+            "ShowTC",
+          ],
+          "name": "MR PATRICK GLEN WILKINS",
+          "number": "4072200010054642",
+          "primary": true,
+          "productCode": "PCP",
+          "productSubCode": "008",
+          "reissued": false,
+          "status": "",
+          "type": "ANZ Frequent Flyer Platinum Visa",
+        },
+        Object {
+          "activationRequired": false,
+          "cardSetID": "4622397029822304",
+          "category": "DEBIT",
+          "designCode": "0",
+          "eligibleFor": Array [
+            "CardActivation",
+            "ShowTC",
+            "SetPin",
+          ],
+          "name": "MR PATRICK GLEN WILKINS",
+          "number": "4622397029822304",
+          "primary": true,
+          "productCode": "PCP",
+          "productSubCode": "061",
+          "reissued": false,
+          "status": "",
+          "type": "ANZ Frequent Flyer Platinum Visa",
+        },
+        Object {
+          "activationRequired": false,
+          "cardSetID": "5432397029822001",
+          "category": "CREDIT",
+          "designCode": "0",
+          "eligibleFor": Array [
+            "CardActivation",
+            "SetPin",
+            "ShowTC",
+          ],
+          "name": "MR PATRICK GLEN WILKINS",
+          "number": "5432397029822001",
+          "primary": true,
+          "productCode": "PCP",
+          "productSubCode": "061",
+          "reissued": false,
+          "status": "",
+          "type": "ANZ Frequent Flyer Platinum Master Card",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <styled.ul>
+        <styled.li>
+          <a
+            data-test-id="card-link-0"
+            id="card-link-0"
+            name="card-link-0"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            tabIndex={0}
+          >
+            <styled.div
+              data-test-id="card-list-0"
+              nonEligible={false}
+            >
+              <img
+                alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                src="assets/BaseProd_2_IMG_17.png"
+              />
+              <styled.div
+                data-test-id="case-details-0"
+              >
+                <styled.p
+                  data-test-id="card-name-0"
+                  id="Cardnameinthelist"
+                  semiBold={true}
+                >
+                  ANZ Frequent Flyer Platinum Visa
+                </styled.p>
+                <styled.p
+                  data-test-id="card-num-0"
+                  id="Cardnumberinthelist"
+                >
+                  4072200010054642
+                </styled.p>
+              </styled.div>
+            </styled.div>
+          </a>
+        </styled.li>
+        <styled.li>
+          <a
+            data-test-id="card-link-1"
+            id="card-link-1"
+            name="card-link-1"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            tabIndex={0}
+          >
+            <styled.div
+              data-test-id="card-list-1"
+              nonEligible={false}
+            >
+              <img
+                alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                src="assets/BaseProd_2_IMG_19.png"
+              />
+              <styled.div
+                data-test-id="case-details-1"
+              >
+                <styled.p
+                  data-test-id="card-name-1"
+                  id="Cardnameinthelist"
+                  semiBold={true}
+                >
+                  ANZ Frequent Flyer Platinum Visa
+                </styled.p>
+                <styled.p
+                  data-test-id="card-num-1"
+                  id="Cardnumberinthelist"
+                >
+                  4622397029822304
+                </styled.p>
+              </styled.div>
+            </styled.div>
+          </a>
+        </styled.li>
+        <styled.li>
+          <a
+            data-test-id="card-link-2"
+            id="card-link-2"
+            name="card-link-2"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            tabIndex={0}
+          >
+            <styled.div
+              data-test-id="card-list-2"
+              nonEligible={false}
+            >
+              <img
+                alt="image of card type ANZ Frequent Flyer Platinum Master Card"
+                src="assets/BaseProd_2_IMG_19.png"
+              />
+              <styled.div
+                data-test-id="case-details-2"
+              >
+                <styled.p
+                  data-test-id="card-name-2"
+                  id="Cardnameinthelist"
+                  semiBold={true}
+                >
+                  ANZ Frequent Flyer Platinum Master Card
+                </styled.p>
+                <styled.p
+                  data-test-id="card-num-2"
+                  id="Cardnumberinthelist"
+                >
+                  5432397029822001
+                </styled.p>
+              </styled.div>
+            </styled.div>
+          </a>
+        </styled.li>
+      </styled.ul>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <styled.li>
+            <a
+              data-test-id="card-link-0"
+              id="card-link-0"
+              name="card-link-0"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex={0}
+            >
+              <styled.div
+                data-test-id="card-list-0"
+                nonEligible={false}
+              >
+                <img
+                  alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                  src="assets/BaseProd_2_IMG_17.png"
+                />
+                <styled.div
+                  data-test-id="case-details-0"
+                >
+                  <styled.p
+                    data-test-id="card-name-0"
+                    id="Cardnameinthelist"
+                    semiBold={true}
+                  >
+                    ANZ Frequent Flyer Platinum Visa
+                  </styled.p>
+                  <styled.p
+                    data-test-id="card-num-0"
+                    id="Cardnumberinthelist"
+                  >
+                    4072200010054642
+                  </styled.p>
+                </styled.div>
+              </styled.div>
+            </a>
+          </styled.li>,
+          <styled.li>
+            <a
+              data-test-id="card-link-1"
+              id="card-link-1"
+              name="card-link-1"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex={0}
+            >
+              <styled.div
+                data-test-id="card-list-1"
+                nonEligible={false}
+              >
+                <img
+                  alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                  src="assets/BaseProd_2_IMG_19.png"
+                />
+                <styled.div
+                  data-test-id="case-details-1"
+                >
+                  <styled.p
+                    data-test-id="card-name-1"
+                    id="Cardnameinthelist"
+                    semiBold={true}
+                  >
+                    ANZ Frequent Flyer Platinum Visa
+                  </styled.p>
+                  <styled.p
+                    data-test-id="card-num-1"
+                    id="Cardnumberinthelist"
+                  >
+                    4622397029822304
+                  </styled.p>
+                </styled.div>
+              </styled.div>
+            </a>
+          </styled.li>,
+          <styled.li>
+            <a
+              data-test-id="card-link-2"
+              id="card-link-2"
+              name="card-link-2"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex={0}
+            >
+              <styled.div
+                data-test-id="card-list-2"
+                nonEligible={false}
+              >
+                <img
+                  alt="image of card type ANZ Frequent Flyer Platinum Master Card"
+                  src="assets/BaseProd_2_IMG_19.png"
+                />
+                <styled.div
+                  data-test-id="case-details-2"
+                >
+                  <styled.p
+                    data-test-id="card-name-2"
+                    id="Cardnameinthelist"
+                    semiBold={true}
+                  >
+                    ANZ Frequent Flyer Platinum Master Card
+                  </styled.p>
+                  <styled.p
+                    data-test-id="card-num-2"
+                    id="Cardnumberinthelist"
+                  >
+                    5432397029822001
+                  </styled.p>
+                </styled.div>
+              </styled.div>
+            </a>
+          </styled.li>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "Card-0",
+          "nodeType": "class",
+          "props": Object {
+            "children": <a
+              data-test-id="card-link-0"
+              id="card-link-0"
+              name="card-link-0"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex={0}
+            >
+              <styled.div
+                data-test-id="card-list-0"
+                nonEligible={false}
+              >
+                <img
+                  alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                  src="assets/BaseProd_2_IMG_17.png"
+                />
+                <styled.div
+                  data-test-id="case-details-0"
+                >
+                  <styled.p
+                    data-test-id="card-name-0"
+                    id="Cardnameinthelist"
+                    semiBold={true}
+                  >
+                    ANZ Frequent Flyer Platinum Visa
+                  </styled.p>
+                  <styled.p
+                    data-test-id="card-num-0"
+                    id="Cardnumberinthelist"
+                  >
+                    4072200010054642
+                  </styled.p>
+                </styled.div>
+              </styled.div>
+            </a>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <styled.div
+                data-test-id="card-list-0"
+                nonEligible={false}
+              >
+                <img
+                  alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                  src="assets/BaseProd_2_IMG_17.png"
+                />
+                <styled.div
+                  data-test-id="case-details-0"
+                >
+                  <styled.p
+                    data-test-id="card-name-0"
+                    id="Cardnameinthelist"
+                    semiBold={true}
+                  >
+                    ANZ Frequent Flyer Platinum Visa
+                  </styled.p>
+                  <styled.p
+                    data-test-id="card-num-0"
+                    id="Cardnumberinthelist"
+                  >
+                    4072200010054642
+                  </styled.p>
+                </styled.div>
+              </styled.div>,
+              "data-test-id": "card-link-0",
+              "id": "card-link-0",
+              "name": "card-link-0",
+              "onClick": [Function],
+              "onKeyPress": [Function],
+              "tabIndex": 0,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                    src="assets/BaseProd_2_IMG_17.png"
+                  />,
+                  <styled.div
+                    data-test-id="case-details-0"
+                  >
+                    <styled.p
+                      data-test-id="card-name-0"
+                      id="Cardnameinthelist"
+                      semiBold={true}
+                    >
+                      ANZ Frequent Flyer Platinum Visa
+                    </styled.p>
+                    <styled.p
+                      data-test-id="card-num-0"
+                      id="Cardnumberinthelist"
+                    >
+                      4072200010054642
+                    </styled.p>
+                  </styled.div>,
+                ],
+                "data-test-id": "card-list-0",
+                "nonEligible": false,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "image of card type ANZ Frequent Flyer Platinum Visa",
+                    "src": "assets/BaseProd_2_IMG_17.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <styled.p
+                        data-test-id="card-name-0"
+                        id="Cardnameinthelist"
+                        semiBold={true}
+                      >
+                        ANZ Frequent Flyer Platinum Visa
+                      </styled.p>,
+                      <styled.p
+                        data-test-id="card-num-0"
+                        id="Cardnumberinthelist"
+                      >
+                        4072200010054642
+                      </styled.p>,
+                    ],
+                    "data-test-id": "case-details-0",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "ANZ Frequent Flyer Platinum Visa",
+                        "data-test-id": "card-name-0",
+                        "id": "Cardnameinthelist",
+                        "semiBold": true,
+                      },
+                      "ref": null,
+                      "rendered": "ANZ Frequent Flyer Platinum Visa",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "4072200010054642",
+                        "data-test-id": "card-num-0",
+                        "id": "Cardnumberinthelist",
+                      },
+                      "ref": null,
+                      "rendered": "4072200010054642",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": "a",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "Card-1",
+          "nodeType": "class",
+          "props": Object {
+            "children": <a
+              data-test-id="card-link-1"
+              id="card-link-1"
+              name="card-link-1"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex={0}
+            >
+              <styled.div
+                data-test-id="card-list-1"
+                nonEligible={false}
+              >
+                <img
+                  alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                  src="assets/BaseProd_2_IMG_19.png"
+                />
+                <styled.div
+                  data-test-id="case-details-1"
+                >
+                  <styled.p
+                    data-test-id="card-name-1"
+                    id="Cardnameinthelist"
+                    semiBold={true}
+                  >
+                    ANZ Frequent Flyer Platinum Visa
+                  </styled.p>
+                  <styled.p
+                    data-test-id="card-num-1"
+                    id="Cardnumberinthelist"
+                  >
+                    4622397029822304
+                  </styled.p>
+                </styled.div>
+              </styled.div>
+            </a>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <styled.div
+                data-test-id="card-list-1"
+                nonEligible={false}
+              >
+                <img
+                  alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                  src="assets/BaseProd_2_IMG_19.png"
+                />
+                <styled.div
+                  data-test-id="case-details-1"
+                >
+                  <styled.p
+                    data-test-id="card-name-1"
+                    id="Cardnameinthelist"
+                    semiBold={true}
+                  >
+                    ANZ Frequent Flyer Platinum Visa
+                  </styled.p>
+                  <styled.p
+                    data-test-id="card-num-1"
+                    id="Cardnumberinthelist"
+                  >
+                    4622397029822304
+                  </styled.p>
+                </styled.div>
+              </styled.div>,
+              "data-test-id": "card-link-1",
+              "id": "card-link-1",
+              "name": "card-link-1",
+              "onClick": [Function],
+              "onKeyPress": [Function],
+              "tabIndex": 0,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                    src="assets/BaseProd_2_IMG_19.png"
+                  />,
+                  <styled.div
+                    data-test-id="case-details-1"
+                  >
+                    <styled.p
+                      data-test-id="card-name-1"
+                      id="Cardnameinthelist"
+                      semiBold={true}
+                    >
+                      ANZ Frequent Flyer Platinum Visa
+                    </styled.p>
+                    <styled.p
+                      data-test-id="card-num-1"
+                      id="Cardnumberinthelist"
+                    >
+                      4622397029822304
+                    </styled.p>
+                  </styled.div>,
+                ],
+                "data-test-id": "card-list-1",
+                "nonEligible": false,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "image of card type ANZ Frequent Flyer Platinum Visa",
+                    "src": "assets/BaseProd_2_IMG_19.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <styled.p
+                        data-test-id="card-name-1"
+                        id="Cardnameinthelist"
+                        semiBold={true}
+                      >
+                        ANZ Frequent Flyer Platinum Visa
+                      </styled.p>,
+                      <styled.p
+                        data-test-id="card-num-1"
+                        id="Cardnumberinthelist"
+                      >
+                        4622397029822304
+                      </styled.p>,
+                    ],
+                    "data-test-id": "case-details-1",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "ANZ Frequent Flyer Platinum Visa",
+                        "data-test-id": "card-name-1",
+                        "id": "Cardnameinthelist",
+                        "semiBold": true,
+                      },
+                      "ref": null,
+                      "rendered": "ANZ Frequent Flyer Platinum Visa",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "4622397029822304",
+                        "data-test-id": "card-num-1",
+                        "id": "Cardnumberinthelist",
+                      },
+                      "ref": null,
+                      "rendered": "4622397029822304",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": "a",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "Card-2",
+          "nodeType": "class",
+          "props": Object {
+            "children": <a
+              data-test-id="card-link-2"
+              id="card-link-2"
+              name="card-link-2"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex={0}
+            >
+              <styled.div
+                data-test-id="card-list-2"
+                nonEligible={false}
+              >
+                <img
+                  alt="image of card type ANZ Frequent Flyer Platinum Master Card"
+                  src="assets/BaseProd_2_IMG_19.png"
+                />
+                <styled.div
+                  data-test-id="case-details-2"
+                >
+                  <styled.p
+                    data-test-id="card-name-2"
+                    id="Cardnameinthelist"
+                    semiBold={true}
+                  >
+                    ANZ Frequent Flyer Platinum Master Card
+                  </styled.p>
+                  <styled.p
+                    data-test-id="card-num-2"
+                    id="Cardnumberinthelist"
+                  >
+                    5432397029822001
+                  </styled.p>
+                </styled.div>
+              </styled.div>
+            </a>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <styled.div
+                data-test-id="card-list-2"
+                nonEligible={false}
+              >
+                <img
+                  alt="image of card type ANZ Frequent Flyer Platinum Master Card"
+                  src="assets/BaseProd_2_IMG_19.png"
+                />
+                <styled.div
+                  data-test-id="case-details-2"
+                >
+                  <styled.p
+                    data-test-id="card-name-2"
+                    id="Cardnameinthelist"
+                    semiBold={true}
+                  >
+                    ANZ Frequent Flyer Platinum Master Card
+                  </styled.p>
+                  <styled.p
+                    data-test-id="card-num-2"
+                    id="Cardnumberinthelist"
+                  >
+                    5432397029822001
+                  </styled.p>
+                </styled.div>
+              </styled.div>,
+              "data-test-id": "card-link-2",
+              "id": "card-link-2",
+              "name": "card-link-2",
+              "onClick": [Function],
+              "onKeyPress": [Function],
+              "tabIndex": 0,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="image of card type ANZ Frequent Flyer Platinum Master Card"
+                    src="assets/BaseProd_2_IMG_19.png"
+                  />,
+                  <styled.div
+                    data-test-id="case-details-2"
+                  >
+                    <styled.p
+                      data-test-id="card-name-2"
+                      id="Cardnameinthelist"
+                      semiBold={true}
+                    >
+                      ANZ Frequent Flyer Platinum Master Card
+                    </styled.p>
+                    <styled.p
+                      data-test-id="card-num-2"
+                      id="Cardnumberinthelist"
+                    >
+                      5432397029822001
+                    </styled.p>
+                  </styled.div>,
+                ],
+                "data-test-id": "card-list-2",
+                "nonEligible": false,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "image of card type ANZ Frequent Flyer Platinum Master Card",
+                    "src": "assets/BaseProd_2_IMG_19.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <styled.p
+                        data-test-id="card-name-2"
+                        id="Cardnameinthelist"
+                        semiBold={true}
+                      >
+                        ANZ Frequent Flyer Platinum Master Card
+                      </styled.p>,
+                      <styled.p
+                        data-test-id="card-num-2"
+                        id="Cardnumberinthelist"
+                      >
+                        5432397029822001
+                      </styled.p>,
+                    ],
+                    "data-test-id": "case-details-2",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "ANZ Frequent Flyer Platinum Master Card",
+                        "data-test-id": "card-name-2",
+                        "id": "Cardnameinthelist",
+                        "semiBold": true,
+                      },
+                      "ref": null,
+                      "rendered": "ANZ Frequent Flyer Platinum Master Card",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "5432397029822001",
+                        "data-test-id": "card-num-2",
+                        "id": "Cardnumberinthelist",
+                      },
+                      "ref": null,
+                      "rendered": "5432397029822001",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": "a",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <styled.ul>
+          <styled.li>
+            <a
+              data-test-id="card-link-0"
+              id="card-link-0"
+              name="card-link-0"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex={0}
+            >
+              <styled.div
+                data-test-id="card-list-0"
+                nonEligible={false}
+              >
+                <img
+                  alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                  src="assets/BaseProd_2_IMG_17.png"
+                />
+                <styled.div
+                  data-test-id="case-details-0"
+                >
+                  <styled.p
+                    data-test-id="card-name-0"
+                    id="Cardnameinthelist"
+                    semiBold={true}
+                  >
+                    ANZ Frequent Flyer Platinum Visa
+                  </styled.p>
+                  <styled.p
+                    data-test-id="card-num-0"
+                    id="Cardnumberinthelist"
+                  >
+                    4072200010054642
+                  </styled.p>
+                </styled.div>
+              </styled.div>
+            </a>
+          </styled.li>
+          <styled.li>
+            <a
+              data-test-id="card-link-1"
+              id="card-link-1"
+              name="card-link-1"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex={0}
+            >
+              <styled.div
+                data-test-id="card-list-1"
+                nonEligible={false}
+              >
+                <img
+                  alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                  src="assets/BaseProd_2_IMG_19.png"
+                />
+                <styled.div
+                  data-test-id="case-details-1"
+                >
+                  <styled.p
+                    data-test-id="card-name-1"
+                    id="Cardnameinthelist"
+                    semiBold={true}
+                  >
+                    ANZ Frequent Flyer Platinum Visa
+                  </styled.p>
+                  <styled.p
+                    data-test-id="card-num-1"
+                    id="Cardnumberinthelist"
+                  >
+                    4622397029822304
+                  </styled.p>
+                </styled.div>
+              </styled.div>
+            </a>
+          </styled.li>
+          <styled.li>
+            <a
+              data-test-id="card-link-2"
+              id="card-link-2"
+              name="card-link-2"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex={0}
+            >
+              <styled.div
+                data-test-id="card-list-2"
+                nonEligible={false}
+              >
+                <img
+                  alt="image of card type ANZ Frequent Flyer Platinum Master Card"
+                  src="assets/BaseProd_2_IMG_19.png"
+                />
+                <styled.div
+                  data-test-id="case-details-2"
+                >
+                  <styled.p
+                    data-test-id="card-name-2"
+                    id="Cardnameinthelist"
+                    semiBold={true}
+                  >
+                    ANZ Frequent Flyer Platinum Master Card
+                  </styled.p>
+                  <styled.p
+                    data-test-id="card-num-2"
+                    id="Cardnumberinthelist"
+                  >
+                    5432397029822001
+                  </styled.p>
+                </styled.div>
+              </styled.div>
+            </a>
+          </styled.li>
+        </styled.ul>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <styled.li>
+              <a
+                data-test-id="card-link-0"
+                id="card-link-0"
+                name="card-link-0"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                tabIndex={0}
+              >
+                <styled.div
+                  data-test-id="card-list-0"
+                  nonEligible={false}
+                >
+                  <img
+                    alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                    src="assets/BaseProd_2_IMG_17.png"
+                  />
+                  <styled.div
+                    data-test-id="case-details-0"
+                  >
+                    <styled.p
+                      data-test-id="card-name-0"
+                      id="Cardnameinthelist"
+                      semiBold={true}
+                    >
+                      ANZ Frequent Flyer Platinum Visa
+                    </styled.p>
+                    <styled.p
+                      data-test-id="card-num-0"
+                      id="Cardnumberinthelist"
+                    >
+                      4072200010054642
+                    </styled.p>
+                  </styled.div>
+                </styled.div>
+              </a>
+            </styled.li>,
+            <styled.li>
+              <a
+                data-test-id="card-link-1"
+                id="card-link-1"
+                name="card-link-1"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                tabIndex={0}
+              >
+                <styled.div
+                  data-test-id="card-list-1"
+                  nonEligible={false}
+                >
+                  <img
+                    alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                    src="assets/BaseProd_2_IMG_19.png"
+                  />
+                  <styled.div
+                    data-test-id="case-details-1"
+                  >
+                    <styled.p
+                      data-test-id="card-name-1"
+                      id="Cardnameinthelist"
+                      semiBold={true}
+                    >
+                      ANZ Frequent Flyer Platinum Visa
+                    </styled.p>
+                    <styled.p
+                      data-test-id="card-num-1"
+                      id="Cardnumberinthelist"
+                    >
+                      4622397029822304
+                    </styled.p>
+                  </styled.div>
+                </styled.div>
+              </a>
+            </styled.li>,
+            <styled.li>
+              <a
+                data-test-id="card-link-2"
+                id="card-link-2"
+                name="card-link-2"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                tabIndex={0}
+              >
+                <styled.div
+                  data-test-id="card-list-2"
+                  nonEligible={false}
+                >
+                  <img
+                    alt="image of card type ANZ Frequent Flyer Platinum Master Card"
+                    src="assets/BaseProd_2_IMG_19.png"
+                  />
+                  <styled.div
+                    data-test-id="case-details-2"
+                  >
+                    <styled.p
+                      data-test-id="card-name-2"
+                      id="Cardnameinthelist"
+                      semiBold={true}
+                    >
+                      ANZ Frequent Flyer Platinum Master Card
+                    </styled.p>
+                    <styled.p
+                      data-test-id="card-num-2"
+                      id="Cardnumberinthelist"
+                    >
+                      5432397029822001
+                    </styled.p>
+                  </styled.div>
+                </styled.div>
+              </a>
+            </styled.li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "Card-0",
+            "nodeType": "class",
+            "props": Object {
+              "children": <a
+                data-test-id="card-link-0"
+                id="card-link-0"
+                name="card-link-0"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                tabIndex={0}
+              >
+                <styled.div
+                  data-test-id="card-list-0"
+                  nonEligible={false}
+                >
+                  <img
+                    alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                    src="assets/BaseProd_2_IMG_17.png"
+                  />
+                  <styled.div
+                    data-test-id="case-details-0"
+                  >
+                    <styled.p
+                      data-test-id="card-name-0"
+                      id="Cardnameinthelist"
+                      semiBold={true}
+                    >
+                      ANZ Frequent Flyer Platinum Visa
+                    </styled.p>
+                    <styled.p
+                      data-test-id="card-num-0"
+                      id="Cardnumberinthelist"
+                    >
+                      4072200010054642
+                    </styled.p>
+                  </styled.div>
+                </styled.div>
+              </a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <styled.div
+                  data-test-id="card-list-0"
+                  nonEligible={false}
+                >
+                  <img
+                    alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                    src="assets/BaseProd_2_IMG_17.png"
+                  />
+                  <styled.div
+                    data-test-id="case-details-0"
+                  >
+                    <styled.p
+                      data-test-id="card-name-0"
+                      id="Cardnameinthelist"
+                      semiBold={true}
+                    >
+                      ANZ Frequent Flyer Platinum Visa
+                    </styled.p>
+                    <styled.p
+                      data-test-id="card-num-0"
+                      id="Cardnumberinthelist"
+                    >
+                      4072200010054642
+                    </styled.p>
+                  </styled.div>
+                </styled.div>,
+                "data-test-id": "card-link-0",
+                "id": "card-link-0",
+                "name": "card-link-0",
+                "onClick": [Function],
+                "onKeyPress": [Function],
+                "tabIndex": 0,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                      src="assets/BaseProd_2_IMG_17.png"
+                    />,
+                    <styled.div
+                      data-test-id="case-details-0"
+                    >
+                      <styled.p
+                        data-test-id="card-name-0"
+                        id="Cardnameinthelist"
+                        semiBold={true}
+                      >
+                        ANZ Frequent Flyer Platinum Visa
+                      </styled.p>
+                      <styled.p
+                        data-test-id="card-num-0"
+                        id="Cardnumberinthelist"
+                      >
+                        4072200010054642
+                      </styled.p>
+                    </styled.div>,
+                  ],
+                  "data-test-id": "card-list-0",
+                  "nonEligible": false,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "image of card type ANZ Frequent Flyer Platinum Visa",
+                      "src": "assets/BaseProd_2_IMG_17.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <styled.p
+                          data-test-id="card-name-0"
+                          id="Cardnameinthelist"
+                          semiBold={true}
+                        >
+                          ANZ Frequent Flyer Platinum Visa
+                        </styled.p>,
+                        <styled.p
+                          data-test-id="card-num-0"
+                          id="Cardnumberinthelist"
+                        >
+                          4072200010054642
+                        </styled.p>,
+                      ],
+                      "data-test-id": "case-details-0",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "ANZ Frequent Flyer Platinum Visa",
+                          "data-test-id": "card-name-0",
+                          "id": "Cardnameinthelist",
+                          "semiBold": true,
+                        },
+                        "ref": null,
+                        "rendered": "ANZ Frequent Flyer Platinum Visa",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "4072200010054642",
+                          "data-test-id": "card-num-0",
+                          "id": "Cardnumberinthelist",
+                        },
+                        "ref": null,
+                        "rendered": "4072200010054642",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": "a",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Card-1",
+            "nodeType": "class",
+            "props": Object {
+              "children": <a
+                data-test-id="card-link-1"
+                id="card-link-1"
+                name="card-link-1"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                tabIndex={0}
+              >
+                <styled.div
+                  data-test-id="card-list-1"
+                  nonEligible={false}
+                >
+                  <img
+                    alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                    src="assets/BaseProd_2_IMG_19.png"
+                  />
+                  <styled.div
+                    data-test-id="case-details-1"
+                  >
+                    <styled.p
+                      data-test-id="card-name-1"
+                      id="Cardnameinthelist"
+                      semiBold={true}
+                    >
+                      ANZ Frequent Flyer Platinum Visa
+                    </styled.p>
+                    <styled.p
+                      data-test-id="card-num-1"
+                      id="Cardnumberinthelist"
+                    >
+                      4622397029822304
+                    </styled.p>
+                  </styled.div>
+                </styled.div>
+              </a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <styled.div
+                  data-test-id="card-list-1"
+                  nonEligible={false}
+                >
+                  <img
+                    alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                    src="assets/BaseProd_2_IMG_19.png"
+                  />
+                  <styled.div
+                    data-test-id="case-details-1"
+                  >
+                    <styled.p
+                      data-test-id="card-name-1"
+                      id="Cardnameinthelist"
+                      semiBold={true}
+                    >
+                      ANZ Frequent Flyer Platinum Visa
+                    </styled.p>
+                    <styled.p
+                      data-test-id="card-num-1"
+                      id="Cardnumberinthelist"
+                    >
+                      4622397029822304
+                    </styled.p>
+                  </styled.div>
+                </styled.div>,
+                "data-test-id": "card-link-1",
+                "id": "card-link-1",
+                "name": "card-link-1",
+                "onClick": [Function],
+                "onKeyPress": [Function],
+                "tabIndex": 0,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="image of card type ANZ Frequent Flyer Platinum Visa"
+                      src="assets/BaseProd_2_IMG_19.png"
+                    />,
+                    <styled.div
+                      data-test-id="case-details-1"
+                    >
+                      <styled.p
+                        data-test-id="card-name-1"
+                        id="Cardnameinthelist"
+                        semiBold={true}
+                      >
+                        ANZ Frequent Flyer Platinum Visa
+                      </styled.p>
+                      <styled.p
+                        data-test-id="card-num-1"
+                        id="Cardnumberinthelist"
+                      >
+                        4622397029822304
+                      </styled.p>
+                    </styled.div>,
+                  ],
+                  "data-test-id": "card-list-1",
+                  "nonEligible": false,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "image of card type ANZ Frequent Flyer Platinum Visa",
+                      "src": "assets/BaseProd_2_IMG_19.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <styled.p
+                          data-test-id="card-name-1"
+                          id="Cardnameinthelist"
+                          semiBold={true}
+                        >
+                          ANZ Frequent Flyer Platinum Visa
+                        </styled.p>,
+                        <styled.p
+                          data-test-id="card-num-1"
+                          id="Cardnumberinthelist"
+                        >
+                          4622397029822304
+                        </styled.p>,
+                      ],
+                      "data-test-id": "case-details-1",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "ANZ Frequent Flyer Platinum Visa",
+                          "data-test-id": "card-name-1",
+                          "id": "Cardnameinthelist",
+                          "semiBold": true,
+                        },
+                        "ref": null,
+                        "rendered": "ANZ Frequent Flyer Platinum Visa",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "4622397029822304",
+                          "data-test-id": "card-num-1",
+                          "id": "Cardnumberinthelist",
+                        },
+                        "ref": null,
+                        "rendered": "4622397029822304",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": "a",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Card-2",
+            "nodeType": "class",
+            "props": Object {
+              "children": <a
+                data-test-id="card-link-2"
+                id="card-link-2"
+                name="card-link-2"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                tabIndex={0}
+              >
+                <styled.div
+                  data-test-id="card-list-2"
+                  nonEligible={false}
+                >
+                  <img
+                    alt="image of card type ANZ Frequent Flyer Platinum Master Card"
+                    src="assets/BaseProd_2_IMG_19.png"
+                  />
+                  <styled.div
+                    data-test-id="case-details-2"
+                  >
+                    <styled.p
+                      data-test-id="card-name-2"
+                      id="Cardnameinthelist"
+                      semiBold={true}
+                    >
+                      ANZ Frequent Flyer Platinum Master Card
+                    </styled.p>
+                    <styled.p
+                      data-test-id="card-num-2"
+                      id="Cardnumberinthelist"
+                    >
+                      5432397029822001
+                    </styled.p>
+                  </styled.div>
+                </styled.div>
+              </a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <styled.div
+                  data-test-id="card-list-2"
+                  nonEligible={false}
+                >
+                  <img
+                    alt="image of card type ANZ Frequent Flyer Platinum Master Card"
+                    src="assets/BaseProd_2_IMG_19.png"
+                  />
+                  <styled.div
+                    data-test-id="case-details-2"
+                  >
+                    <styled.p
+                      data-test-id="card-name-2"
+                      id="Cardnameinthelist"
+                      semiBold={true}
+                    >
+                      ANZ Frequent Flyer Platinum Master Card
+                    </styled.p>
+                    <styled.p
+                      data-test-id="card-num-2"
+                      id="Cardnumberinthelist"
+                    >
+                      5432397029822001
+                    </styled.p>
+                  </styled.div>
+                </styled.div>,
+                "data-test-id": "card-link-2",
+                "id": "card-link-2",
+                "name": "card-link-2",
+                "onClick": [Function],
+                "onKeyPress": [Function],
+                "tabIndex": 0,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="image of card type ANZ Frequent Flyer Platinum Master Card"
+                      src="assets/BaseProd_2_IMG_19.png"
+                    />,
+                    <styled.div
+                      data-test-id="case-details-2"
+                    >
+                      <styled.p
+                        data-test-id="card-name-2"
+                        id="Cardnameinthelist"
+                        semiBold={true}
+                      >
+                        ANZ Frequent Flyer Platinum Master Card
+                      </styled.p>
+                      <styled.p
+                        data-test-id="card-num-2"
+                        id="Cardnumberinthelist"
+                      >
+                        5432397029822001
+                      </styled.p>
+                    </styled.div>,
+                  ],
+                  "data-test-id": "card-list-2",
+                  "nonEligible": false,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "image of card type ANZ Frequent Flyer Platinum Master Card",
+                      "src": "assets/BaseProd_2_IMG_19.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <styled.p
+                          data-test-id="card-name-2"
+                          id="Cardnameinthelist"
+                          semiBold={true}
+                        >
+                          ANZ Frequent Flyer Platinum Master Card
+                        </styled.p>,
+                        <styled.p
+                          data-test-id="card-num-2"
+                          id="Cardnumberinthelist"
+                        >
+                          5432397029822001
+                        </styled.p>,
+                      ],
+                      "data-test-id": "case-details-2",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "ANZ Frequent Flyer Platinum Master Card",
+                          "data-test-id": "card-name-2",
+                          "id": "Cardnameinthelist",
+                          "semiBold": true,
+                        },
+                        "ref": null,
+                        "rendered": "ANZ Frequent Flyer Platinum Master Card",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "5432397029822001",
+                          "data-test-id": "card-num-2",
+                          "id": "Cardnumberinthelist",
+                        },
+                        "ref": null,
+                        "rendered": "5432397029822001",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": "a",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

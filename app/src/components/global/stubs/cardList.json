@@ -1,0 +1,121 @@
+{
+  "cards": [
+        {
+        "number": "4072200010054642",
+        "productCode": "PCP",
+        "productSubCode": "008",
+        "designCode": "0",
+        "status": "",
+        "name": "MR PATRICK GLEN WILKINS",
+        "category": "CREDIT",
+        "type": "ANZ Frequent Flyer Platinum Visa",
+        "primary": true,
+        "activationRequired": false,
+        "eligibleFor": [
+                         "AppleWalletProvisioning",
+                         "CardActivation",
+                         "SetPin",
+                         "ShowTC"
+                       ],
+        "cardSetID": "4072200010054642",
+        "reissued": false
+       },
+       {
+        "number": "4622397029822304",
+        "productCode": "PCP",
+        "productSubCode": "061",
+        "designCode": "0",
+        "status": "",
+        "name": "MR PATRICK GLEN WILKINS",
+        "category": "DEBIT",
+        "type": "ANZ Frequent Flyer Platinum Visa",
+        "primary": true,
+        "activationRequired": false,
+        "eligibleFor": [
+                         "CardActivation",
+                         "ShowTC",
+                         "SetPin"
+                       ],
+        "cardSetID": "4622397029822304",
+        "reissued": false
+      },
+      {
+       "number": "5432397029822001",
+       "productCode": "PCP",
+       "productSubCode": "061",
+       "designCode": "0",
+       "status": "",
+       "name": "MR PATRICK GLEN WILKINS",
+       "category": "CREDIT",
+       "type": "ANZ Frequent Flyer Platinum Master Card",
+       "primary": true,
+       "activationRequired": false,
+       "eligibleFor": [
+                        "CardActivation",
+                        "SetPin",
+                        "ShowTC"
+                      ],
+       "cardSetID": "5432397029822001",
+       "reissued": false
+      }
+     ],
+     "cardsNonEligible": [
+      {
+      "number": "4072200010054642",
+      "productCode": "PCP",
+      "productSubCode": "008",
+      "designCode": "0",
+      "status": "",
+      "name": "MR PATRICK GLEN WILKINS",
+      "category": "CREDIT",
+      "type": "ANZ Frequent Flyer Platinum Visa",
+      "primary": true,
+      "activationRequired": false,
+      "eligibleFor": [
+                       "AppleWalletProvisioning",
+                       "CardActivation",
+                       "ShowTC"
+                     ],
+      "cardSetID": "4072200010054642",
+      "reissued": false
+     },
+     {
+      "number": "4622397029822304",
+      "productCode": "PCP",
+      "productSubCode": "061",
+      "designCode": "0",
+      "status": "",
+      "name": "MR PATRICK GLEN WILKINS",
+      "category": "DEBIT",
+      "type": "ANZ Frequent Flyer Platinum Visa",
+      "primary": true,
+      "activationRequired": false,
+      "eligibleFor": [
+                       "CardActivation",
+                       "ShowTC",
+                       "SetPin"
+                     ],
+      "cardSetID": "4622397029822304",
+      "reissued": false
+    },
+    {
+     "number": "5432397029822001",
+     "productCode": "PCP",
+     "productSubCode": "061",
+     "designCode": "0",
+     "status": "",
+     "name": "MR PATRICK GLEN WILKINS",
+     "category": "CREDIT",
+     "type": "ANZ Frequent Flyer Platinum Master Card",
+     "primary": true,
+     "activationRequired": false,
+     "eligibleFor": [
+                      "CardActivation",
+                      "ShowTC"
+                    ],
+     "cardSetID": "5432397029822001",
+     "reissued": false
+    }
+   ]
+ }
+ 

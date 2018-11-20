@@ -1,0 +1,8 @@
+node_modules
+build
+publish/output/
+.DS_Store
+.idea
+errorShots/
+report/
+screenShots/

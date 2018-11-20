@@ -1,0 +1,68 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="shared-styles.html">
+
+<dom-module id="doc-view">
+    <template>
+        <style include="shared-styles">
+            :host {
+                display: block;
+
+                padding: 10px;
+            }
+        </style>
+        <app-location route="{{route}}"></app-location>
+        <app-route
+            route="{{route}}"
+            pattern="/:page"
+            data="{{routeData}}"
+            tail="{{subroute}}"></app-route>
+        <iron-ajax auto url="../output/{{route.path}}.json" handle-as="json"
+                   last-response="{{ajaxResponse}}"></iron-ajax>
+        <template is="dom-repeat" items="[[ajaxResponse.suites]]">
+            <h1>{{item.name}}</h1>
+            <ul>
+                <template is="dom-repeat" items="[[item.tests]]">
+                    <template is="dom-if" if="{{_isImage(item.name)}}">
+                        <img src="{{item.name}}" width="400"/>
+                    </template>
+                    <template is="dom-if" if="{{_isText(item.name)}}">
+                        <li>{{item.name}}</li>
+                    </template>
+                </template>
+            </ul>
+        </template>
+    </template>
+
+    <script>
+        Polymer({
+            is: 'doc-view',
+            _isImage(text){
+                if(text.startsWith('../output')){
+                    console.log(text);
+                    return true;
+                }else{
+                    return false;
+                }
+            },
+            _isText(text){
+                if(!text.startsWith('../output')){
+                    console.log(text);
+                    return true;
+                }else{
+                    return false;
+                }
+            }
+        });
+    </script>
+</dom-module>

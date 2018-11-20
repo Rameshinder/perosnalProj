@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Spinner /> Spinner snapshot test 1`] = `
+<styled.div>
+  <styled.svg
+    height="72"
+    width="72"
+  >
+    <circle
+      className="path"
+      cx="36"
+      cy="36"
+      fill="none"
+      r="34"
+      strokeMiterlimit="10"
+      strokeWidth="2"
+    />
+  </styled.svg>
+  <Icon
+    iconName="Action Menu"
+  />
+</styled.div>
+`;

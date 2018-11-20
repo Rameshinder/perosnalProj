@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeedbackPage renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FeedbackPage />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <styled.div>
+          <styled.a
+            aria-label="Feedback"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            tabIndex={0}
+          >
+            <Icon
+              color="#0072AC"
+              iconName="Feedback Chat"
+            />
+          </styled.a>
+          <Heading
+            level="4"
+          >
+            Feedback
+          </Heading>
+        </styled.div>,
+        null,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <styled.a
+              aria-label="Feedback"
+              onClick={[Function]}
+              onKeyUp={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                color="#0072AC"
+                iconName="Feedback Chat"
+              />
+            </styled.a>,
+            <Heading
+              level="4"
+            >
+              Feedback
+            </Heading>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "aria-label": "Feedback",
+              "children": <Icon
+                color="#0072AC"
+                iconName="Feedback Chat"
+              />,
+              "onClick": [Function],
+              "onKeyUp": [Function],
+              "tabIndex": 0,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#0072AC",
+                "iconName": "Feedback Chat",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Feedback",
+              "level": "4",
+            },
+            "ref": null,
+            "rendered": "Feedback",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      null,
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <styled.div>
+            <styled.a
+              aria-label="Feedback"
+              onClick={[Function]}
+              onKeyUp={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                color="#0072AC"
+                iconName="Feedback Chat"
+              />
+            </styled.a>
+            <Heading
+              level="4"
+            >
+              Feedback
+            </Heading>
+          </styled.div>,
+          null,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <styled.a
+                aria-label="Feedback"
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                tabIndex={0}
+              >
+                <Icon
+                  color="#0072AC"
+                  iconName="Feedback Chat"
+                />
+              </styled.a>,
+              <Heading
+                level="4"
+              >
+                Feedback
+              </Heading>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "aria-label": "Feedback",
+                "children": <Icon
+                  color="#0072AC"
+                  iconName="Feedback Chat"
+                />,
+                "onClick": [Function],
+                "onKeyUp": [Function],
+                "tabIndex": 0,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#0072AC",
+                  "iconName": "Feedback Chat",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Feedback",
+                "level": "4",
+              },
+              "ref": null,
+              "rendered": "Feedback",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

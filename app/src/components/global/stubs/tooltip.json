@@ -1,0 +1,17 @@
+{
+	"centerAlign" : {
+		"message" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod dui sit amet risus vestibulum rutrum. Nulla vel dui eu nisi rutrum semper.",
+		"center" : true	
+	},
+	"sideAlign" : {
+		"message" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod dui sit amet risus vestibulum rutrum. Nulla vel dui eu nisi rutrum semper."
+	},
+	"title" : {
+		"message" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod dui sit amet risus vestibulum rutrum. Nulla vel dui eu nisi rutrum semper.",
+		"title" : "With Title"
+	},
+	"messageOnTop" : {
+		"message" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod dui sit amet risus vestibulum rutrum. Nulla vel dui eu nisi rutrum semper.",
+		"displayMessageOnTop" : true
+	}
+}

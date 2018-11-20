@@ -1,0 +1,63 @@
+{
+  "parser": "babel-eslint",
+  "globals": {
+    "require": true,
+    "__ENV__": true,
+    "__API_TARGET__": true,
+    "__dirname": true,
+    "__filename": true,
+    "_": true,
+    "PEP_URL": true,
+    "angular": true,
+    "module": true,
+    "Modernizr": true
+  },
+  "rules": {
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "no-unused-vars": [
+      2,
+      {"vars": "all", "args": "after-used"}
+    ],
+    "no-extra-boolean-cast": [
+      0
+    ],
+    "indent": [
+      0,
+      2
+    ],
+    "quotes": [
+      2,
+      "single"
+    ],
+     "linebreak-style": [
+       0
+     ],
+    "semi": [
+      0,
+      "always"
+    ],
+    "no-useless-escape": [
+      0
+    ],
+    "curly": [2],
+    "no-console": 0,
+    "camelcase": [0, {"properties": "always"}]
+  },
+  parserOptions: {
+    ecmaVersion: 6,
+    ecmaFeatures: {
+        jsx: true
+    }
+  },
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jest": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended"]
+}

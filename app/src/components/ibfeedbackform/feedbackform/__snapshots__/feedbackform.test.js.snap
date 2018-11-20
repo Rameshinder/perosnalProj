@@ -1,0 +1,2323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeedbackForm renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FeedbackForm
+    isOpen="true"
+    onClose={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <styled.div>
+        <Modal
+          cancelFooterText="Cancel"
+          disableCancel={false}
+          disableSend={true}
+          handleClick={[Function]}
+          onClose={[Function]}
+          sendFooterText="Submit"
+          show={false}
+          title="Feedback"
+          width={430}
+        >
+          <styled.div
+            collapse={true}
+          >
+            <styled.div>
+              <Heading
+                aria-label="Rate your ANZ Internet Banking experience"
+                level="1"
+                proLight={true}
+                tabIndex={0}
+              >
+                Rate your ANZ Internet Banking experience
+              </Heading>
+            </styled.div>
+          </styled.div>
+          <styled.div
+            collapse={true}
+          >
+            <styled.div>
+              <Rating
+                callbackFromParent={[Function]}
+              />
+            </styled.div>
+            <styled.div>
+              <Styled(Heading)
+                aria-label="Choose a star to rate"
+                level="4"
+                proRegularFontSize={true}
+                tabIndex={0}
+              >
+                Choose a star to rate
+              </Styled(Heading)>
+            </styled.div>
+            <styled.div>
+              <Accordion
+                collapseAccordion={true}
+                enableEnter={true}
+                id="feedbackComments"
+                stayOpen={false}
+                title="Want to tell us more"
+              >
+                <styled.div>
+                  <Heading
+                    aria-label="Comments"
+                    level="4"
+                    tabIndex={0}
+                  >
+                    Comments
+                  </Heading>
+                  <Styled(TextArea)
+                    hasTransition={true}
+                    placeholder="For your security,please do not provide any personal account  information."
+                    textAreaFunc={[Function]}
+                    transitionTiming={500}
+                  />
+                </styled.div>
+                <styled.div>
+                  <Heading
+                    aria-label="Need a response?"
+                    level="4"
+                    tabIndex={0}
+                  >
+                    Need a response?
+                  </Heading>
+                  <Heading
+                    aria-label="Call 131344 or send us a"
+                    level="4"
+                    tabIndex={0}
+                  >
+                    Call 
+                    <strong>
+                      13 13 44 
+                    </strong>
+                    or send us a 
+                    <a
+                      href={true}
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      tabIndex={0}
+                      title="Securemail"
+                    >
+                      Securemail
+                    </a>
+                    .
+                  </Heading>
+                </styled.div>
+                <styled.div>
+                  <Heading
+                    aria-label="Need a response?"
+                    level="4"
+                    tabIndex={0}
+                  >
+                    Need a response?
+                  </Heading>
+                  <Heading
+                    aria-label="Call  or send us a"
+                    level="4"
+                    tabIndex={0}
+                  >
+                    Call 
+                    <a
+                      aria-label="13 13 44"
+                      href="tel:131344"
+                      tabIndex={0}
+                    >
+                      13 13 44 
+                    </a>
+                    or send us a 
+                    <a
+                      href={true}
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      tabIndex={0}
+                      title="Securemail"
+                    >
+                      Securemail
+                    </a>
+                    .
+                  </Heading>
+                </styled.div>
+              </Accordion>
+            </styled.div>
+          </styled.div>
+        </Modal>
+      </styled.div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Modal
+          cancelFooterText="Cancel"
+          disableCancel={false}
+          disableSend={true}
+          handleClick={[Function]}
+          onClose={[Function]}
+          sendFooterText="Submit"
+          show={false}
+          title="Feedback"
+          width={430}
+        >
+          <styled.div
+            collapse={true}
+          >
+            <styled.div>
+              <Heading
+                aria-label="Rate your ANZ Internet Banking experience"
+                level="1"
+                proLight={true}
+                tabIndex={0}
+              >
+                Rate your ANZ Internet Banking experience
+              </Heading>
+            </styled.div>
+          </styled.div>
+          <styled.div
+            collapse={true}
+          >
+            <styled.div>
+              <Rating
+                callbackFromParent={[Function]}
+              />
+            </styled.div>
+            <styled.div>
+              <Styled(Heading)
+                aria-label="Choose a star to rate"
+                level="4"
+                proRegularFontSize={true}
+                tabIndex={0}
+              >
+                Choose a star to rate
+              </Styled(Heading)>
+            </styled.div>
+            <styled.div>
+              <Accordion
+                collapseAccordion={true}
+                enableEnter={true}
+                id="feedbackComments"
+                stayOpen={false}
+                title="Want to tell us more"
+              >
+                <styled.div>
+                  <Heading
+                    aria-label="Comments"
+                    level="4"
+                    tabIndex={0}
+                  >
+                    Comments
+                  </Heading>
+                  <Styled(TextArea)
+                    hasTransition={true}
+                    placeholder="For your security,please do not provide any personal account  information."
+                    textAreaFunc={[Function]}
+                    transitionTiming={500}
+                  />
+                </styled.div>
+                <styled.div>
+                  <Heading
+                    aria-label="Need a response?"
+                    level="4"
+                    tabIndex={0}
+                  >
+                    Need a response?
+                  </Heading>
+                  <Heading
+                    aria-label="Call 131344 or send us a"
+                    level="4"
+                    tabIndex={0}
+                  >
+                    Call 
+                    <strong>
+                      13 13 44 
+                    </strong>
+                    or send us a 
+                    <a
+                      href={true}
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      tabIndex={0}
+                      title="Securemail"
+                    >
+                      Securemail
+                    </a>
+                    .
+                  </Heading>
+                </styled.div>
+                <styled.div>
+                  <Heading
+                    aria-label="Need a response?"
+                    level="4"
+                    tabIndex={0}
+                  >
+                    Need a response?
+                  </Heading>
+                  <Heading
+                    aria-label="Call  or send us a"
+                    level="4"
+                    tabIndex={0}
+                  >
+                    Call 
+                    <a
+                      aria-label="13 13 44"
+                      href="tel:131344"
+                      tabIndex={0}
+                    >
+                      13 13 44 
+                    </a>
+                    or send us a 
+                    <a
+                      href={true}
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      tabIndex={0}
+                      title="Securemail"
+                    >
+                      Securemail
+                    </a>
+                    .
+                  </Heading>
+                </styled.div>
+              </Accordion>
+            </styled.div>
+          </styled.div>
+        </Modal>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "cancelFooterText": "Cancel",
+          "children": Array [
+            <styled.div
+              collapse={true}
+            >
+              <styled.div>
+                <Heading
+                  aria-label="Rate your ANZ Internet Banking experience"
+                  level="1"
+                  proLight={true}
+                  tabIndex={0}
+                >
+                  Rate your ANZ Internet Banking experience
+                </Heading>
+              </styled.div>
+            </styled.div>,
+            <styled.div
+              collapse={true}
+            >
+              <styled.div>
+                <Rating
+                  callbackFromParent={[Function]}
+                />
+              </styled.div>
+              <styled.div>
+                <Styled(Heading)
+                  aria-label="Choose a star to rate"
+                  level="4"
+                  proRegularFontSize={true}
+                  tabIndex={0}
+                >
+                  Choose a star to rate
+                </Styled(Heading)>
+              </styled.div>
+              <styled.div>
+                <Accordion
+                  collapseAccordion={true}
+                  enableEnter={true}
+                  id="feedbackComments"
+                  stayOpen={false}
+                  title="Want to tell us more"
+                >
+                  <styled.div>
+                    <Heading
+                      aria-label="Comments"
+                      level="4"
+                      tabIndex={0}
+                    >
+                      Comments
+                    </Heading>
+                    <Styled(TextArea)
+                      hasTransition={true}
+                      placeholder="For your security,please do not provide any personal account  information."
+                      textAreaFunc={[Function]}
+                      transitionTiming={500}
+                    />
+                  </styled.div>
+                  <styled.div>
+                    <Heading
+                      aria-label="Need a response?"
+                      level="4"
+                      tabIndex={0}
+                    >
+                      Need a response?
+                    </Heading>
+                    <Heading
+                      aria-label="Call 131344 or send us a"
+                      level="4"
+                      tabIndex={0}
+                    >
+                      Call 
+                      <strong>
+                        13 13 44 
+                      </strong>
+                      or send us a 
+                      <a
+                        href={true}
+                        onClick={[Function]}
+                        onKeyUp={[Function]}
+                        tabIndex={0}
+                        title="Securemail"
+                      >
+                        Securemail
+                      </a>
+                      .
+                    </Heading>
+                  </styled.div>
+                  <styled.div>
+                    <Heading
+                      aria-label="Need a response?"
+                      level="4"
+                      tabIndex={0}
+                    >
+                      Need a response?
+                    </Heading>
+                    <Heading
+                      aria-label="Call  or send us a"
+                      level="4"
+                      tabIndex={0}
+                    >
+                      Call 
+                      <a
+                        aria-label="13 13 44"
+                        href="tel:131344"
+                        tabIndex={0}
+                      >
+                        13 13 44 
+                      </a>
+                      or send us a 
+                      <a
+                        href={true}
+                        onClick={[Function]}
+                        onKeyUp={[Function]}
+                        tabIndex={0}
+                        title="Securemail"
+                      >
+                        Securemail
+                      </a>
+                      .
+                    </Heading>
+                  </styled.div>
+                </Accordion>
+              </styled.div>
+            </styled.div>,
+          ],
+          "disableCancel": false,
+          "disableSend": true,
+          "handleClick": [Function],
+          "onClose": [Function],
+          "sendFooterText": "Submit",
+          "show": false,
+          "title": "Feedback",
+          "width": 430,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <styled.div>
+                <Heading
+                  aria-label="Rate your ANZ Internet Banking experience"
+                  level="1"
+                  proLight={true}
+                  tabIndex={0}
+                >
+                  Rate your ANZ Internet Banking experience
+                </Heading>
+              </styled.div>,
+              "collapse": true,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Heading
+                  aria-label="Rate your ANZ Internet Banking experience"
+                  level="1"
+                  proLight={true}
+                  tabIndex={0}
+                >
+                  Rate your ANZ Internet Banking experience
+                </Heading>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "aria-label": "Rate your ANZ Internet Banking experience",
+                  "children": "Rate your ANZ Internet Banking experience",
+                  "level": "1",
+                  "proLight": true,
+                  "tabIndex": 0,
+                },
+                "ref": null,
+                "rendered": "Rate your ANZ Internet Banking experience",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <styled.div>
+                  <Rating
+                    callbackFromParent={[Function]}
+                  />
+                </styled.div>,
+                <styled.div>
+                  <Styled(Heading)
+                    aria-label="Choose a star to rate"
+                    level="4"
+                    proRegularFontSize={true}
+                    tabIndex={0}
+                  >
+                    Choose a star to rate
+                  </Styled(Heading)>
+                </styled.div>,
+                <styled.div>
+                  <Accordion
+                    collapseAccordion={true}
+                    enableEnter={true}
+                    id="feedbackComments"
+                    stayOpen={false}
+                    title="Want to tell us more"
+                  >
+                    <styled.div>
+                      <Heading
+                        aria-label="Comments"
+                        level="4"
+                        tabIndex={0}
+                      >
+                        Comments
+                      </Heading>
+                      <Styled(TextArea)
+                        hasTransition={true}
+                        placeholder="For your security,please do not provide any personal account  information."
+                        textAreaFunc={[Function]}
+                        transitionTiming={500}
+                      />
+                    </styled.div>
+                    <styled.div>
+                      <Heading
+                        aria-label="Need a response?"
+                        level="4"
+                        tabIndex={0}
+                      >
+                        Need a response?
+                      </Heading>
+                      <Heading
+                        aria-label="Call 131344 or send us a"
+                        level="4"
+                        tabIndex={0}
+                      >
+                        Call 
+                        <strong>
+                          13 13 44 
+                        </strong>
+                        or send us a 
+                        <a
+                          href={true}
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          tabIndex={0}
+                          title="Securemail"
+                        >
+                          Securemail
+                        </a>
+                        .
+                      </Heading>
+                    </styled.div>
+                    <styled.div>
+                      <Heading
+                        aria-label="Need a response?"
+                        level="4"
+                        tabIndex={0}
+                      >
+                        Need a response?
+                      </Heading>
+                      <Heading
+                        aria-label="Call  or send us a"
+                        level="4"
+                        tabIndex={0}
+                      >
+                        Call 
+                        <a
+                          aria-label="13 13 44"
+                          href="tel:131344"
+                          tabIndex={0}
+                        >
+                          13 13 44 
+                        </a>
+                        or send us a 
+                        <a
+                          href={true}
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          tabIndex={0}
+                          title="Securemail"
+                        >
+                          Securemail
+                        </a>
+                        .
+                      </Heading>
+                    </styled.div>
+                  </Accordion>
+                </styled.div>,
+              ],
+              "collapse": true,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Rating
+                    callbackFromParent={[Function]}
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "callbackFromParent": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Styled(Heading)
+                    aria-label="Choose a star to rate"
+                    level="4"
+                    proRegularFontSize={true}
+                    tabIndex={0}
+                  >
+                    Choose a star to rate
+                  </Styled(Heading)>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "aria-label": "Choose a star to rate",
+                    "children": "Choose a star to rate",
+                    "level": "4",
+                    "proRegularFontSize": true,
+                    "tabIndex": 0,
+                  },
+                  "ref": null,
+                  "rendered": "Choose a star to rate",
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Accordion
+                    collapseAccordion={true}
+                    enableEnter={true}
+                    id="feedbackComments"
+                    stayOpen={false}
+                    title="Want to tell us more"
+                  >
+                    <styled.div>
+                      <Heading
+                        aria-label="Comments"
+                        level="4"
+                        tabIndex={0}
+                      >
+                        Comments
+                      </Heading>
+                      <Styled(TextArea)
+                        hasTransition={true}
+                        placeholder="For your security,please do not provide any personal account  information."
+                        textAreaFunc={[Function]}
+                        transitionTiming={500}
+                      />
+                    </styled.div>
+                    <styled.div>
+                      <Heading
+                        aria-label="Need a response?"
+                        level="4"
+                        tabIndex={0}
+                      >
+                        Need a response?
+                      </Heading>
+                      <Heading
+                        aria-label="Call 131344 or send us a"
+                        level="4"
+                        tabIndex={0}
+                      >
+                        Call 
+                        <strong>
+                          13 13 44 
+                        </strong>
+                        or send us a 
+                        <a
+                          href={true}
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          tabIndex={0}
+                          title="Securemail"
+                        >
+                          Securemail
+                        </a>
+                        .
+                      </Heading>
+                    </styled.div>
+                    <styled.div>
+                      <Heading
+                        aria-label="Need a response?"
+                        level="4"
+                        tabIndex={0}
+                      >
+                        Need a response?
+                      </Heading>
+                      <Heading
+                        aria-label="Call  or send us a"
+                        level="4"
+                        tabIndex={0}
+                      >
+                        Call 
+                        <a
+                          aria-label="13 13 44"
+                          href="tel:131344"
+                          tabIndex={0}
+                        >
+                          13 13 44 
+                        </a>
+                        or send us a 
+                        <a
+                          href={true}
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          tabIndex={0}
+                          title="Securemail"
+                        >
+                          Securemail
+                        </a>
+                        .
+                      </Heading>
+                    </styled.div>
+                  </Accordion>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <styled.div>
+                        <Heading
+                          aria-label="Comments"
+                          level="4"
+                          tabIndex={0}
+                        >
+                          Comments
+                        </Heading>
+                        <Styled(TextArea)
+                          hasTransition={true}
+                          placeholder="For your security,please do not provide any personal account  information."
+                          textAreaFunc={[Function]}
+                          transitionTiming={500}
+                        />
+                      </styled.div>,
+                      <styled.div>
+                        <Heading
+                          aria-label="Need a response?"
+                          level="4"
+                          tabIndex={0}
+                        >
+                          Need a response?
+                        </Heading>
+                        <Heading
+                          aria-label="Call 131344 or send us a"
+                          level="4"
+                          tabIndex={0}
+                        >
+                          Call 
+                          <strong>
+                            13 13 44 
+                          </strong>
+                          or send us a 
+                          <a
+                            href={true}
+                            onClick={[Function]}
+                            onKeyUp={[Function]}
+                            tabIndex={0}
+                            title="Securemail"
+                          >
+                            Securemail
+                          </a>
+                          .
+                        </Heading>
+                      </styled.div>,
+                      <styled.div>
+                        <Heading
+                          aria-label="Need a response?"
+                          level="4"
+                          tabIndex={0}
+                        >
+                          Need a response?
+                        </Heading>
+                        <Heading
+                          aria-label="Call  or send us a"
+                          level="4"
+                          tabIndex={0}
+                        >
+                          Call 
+                          <a
+                            aria-label="13 13 44"
+                            href="tel:131344"
+                            tabIndex={0}
+                          >
+                            13 13 44 
+                          </a>
+                          or send us a 
+                          <a
+                            href={true}
+                            onClick={[Function]}
+                            onKeyUp={[Function]}
+                            tabIndex={0}
+                            title="Securemail"
+                          >
+                            Securemail
+                          </a>
+                          .
+                        </Heading>
+                      </styled.div>,
+                    ],
+                    "collapseAccordion": true,
+                    "enableEnter": true,
+                    "id": "feedbackComments",
+                    "stayOpen": false,
+                    "title": "Want to tell us more",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": Array [
+                          <Heading
+                            aria-label="Comments"
+                            level="4"
+                            tabIndex={0}
+                          >
+                            Comments
+                          </Heading>,
+                          <Styled(TextArea)
+                            hasTransition={true}
+                            placeholder="For your security,please do not provide any personal account  information."
+                            textAreaFunc={[Function]}
+                            transitionTiming={500}
+                          />,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "aria-label": "Comments",
+                            "children": "Comments",
+                            "level": "4",
+                            "tabIndex": 0,
+                          },
+                          "ref": null,
+                          "rendered": "Comments",
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "hasTransition": true,
+                            "placeholder": "For your security,please do not provide any personal account  information.",
+                            "textAreaFunc": [Function],
+                            "transitionTiming": 500,
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                      ],
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": Array [
+                          <Heading
+                            aria-label="Need a response?"
+                            level="4"
+                            tabIndex={0}
+                          >
+                            Need a response?
+                          </Heading>,
+                          <Heading
+                            aria-label="Call 131344 or send us a"
+                            level="4"
+                            tabIndex={0}
+                          >
+                            Call 
+                            <strong>
+                              13 13 44 
+                            </strong>
+                            or send us a 
+                            <a
+                              href={true}
+                              onClick={[Function]}
+                              onKeyUp={[Function]}
+                              tabIndex={0}
+                              title="Securemail"
+                            >
+                              Securemail
+                            </a>
+                            .
+                          </Heading>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "aria-label": "Need a response?",
+                            "children": "Need a response?",
+                            "level": "4",
+                            "tabIndex": 0,
+                          },
+                          "ref": null,
+                          "rendered": "Need a response?",
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "aria-label": "Call 131344 or send us a",
+                            "children": Array [
+                              "Call ",
+                              <strong>
+                                13 13 44 
+                              </strong>,
+                              "or send us a ",
+                              <a
+                                href={true}
+                                onClick={[Function]}
+                                onKeyUp={[Function]}
+                                tabIndex={0}
+                                title="Securemail"
+                              >
+                                Securemail
+                              </a>,
+                              ".",
+                            ],
+                            "level": "4",
+                            "tabIndex": 0,
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            "Call ",
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "13 13 44 ",
+                              },
+                              "ref": null,
+                              "rendered": "13 13 44 ",
+                              "type": "strong",
+                            },
+                            "or send us a ",
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Securemail",
+                                "href": true,
+                                "onClick": [Function],
+                                "onKeyUp": [Function],
+                                "tabIndex": 0,
+                                "title": "Securemail",
+                              },
+                              "ref": null,
+                              "rendered": "Securemail",
+                              "type": "a",
+                            },
+                            ".",
+                          ],
+                          "type": [Function],
+                        },
+                      ],
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": Array [
+                          <Heading
+                            aria-label="Need a response?"
+                            level="4"
+                            tabIndex={0}
+                          >
+                            Need a response?
+                          </Heading>,
+                          <Heading
+                            aria-label="Call  or send us a"
+                            level="4"
+                            tabIndex={0}
+                          >
+                            Call 
+                            <a
+                              aria-label="13 13 44"
+                              href="tel:131344"
+                              tabIndex={0}
+                            >
+                              13 13 44 
+                            </a>
+                            or send us a 
+                            <a
+                              href={true}
+                              onClick={[Function]}
+                              onKeyUp={[Function]}
+                              tabIndex={0}
+                              title="Securemail"
+                            >
+                              Securemail
+                            </a>
+                            .
+                          </Heading>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "aria-label": "Need a response?",
+                            "children": "Need a response?",
+                            "level": "4",
+                            "tabIndex": 0,
+                          },
+                          "ref": null,
+                          "rendered": "Need a response?",
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "aria-label": "Call  or send us a",
+                            "children": Array [
+                              "Call ",
+                              <a
+                                aria-label="13 13 44"
+                                href="tel:131344"
+                                tabIndex={0}
+                              >
+                                13 13 44 
+                              </a>,
+                              "or send us a ",
+                              <a
+                                href={true}
+                                onClick={[Function]}
+                                onKeyUp={[Function]}
+                                tabIndex={0}
+                                title="Securemail"
+                              >
+                                Securemail
+                              </a>,
+                              ".",
+                            ],
+                            "level": "4",
+                            "tabIndex": 0,
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            "Call ",
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "aria-label": "13 13 44",
+                                "children": "13 13 44 ",
+                                "href": "tel:131344",
+                                "tabIndex": 0,
+                              },
+                              "ref": null,
+                              "rendered": "13 13 44 ",
+                              "type": "a",
+                            },
+                            "or send us a ",
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Securemail",
+                                "href": true,
+                                "onClick": [Function],
+                                "onKeyUp": [Function],
+                                "tabIndex": 0,
+                                "title": "Securemail",
+                              },
+                              "ref": null,
+                              "rendered": "Securemail",
+                              "type": "a",
+                            },
+                            ".",
+                          ],
+                          "type": [Function],
+                        },
+                      ],
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <styled.div>
+          <Modal
+            cancelFooterText="Cancel"
+            disableCancel={false}
+            disableSend={true}
+            handleClick={[Function]}
+            onClose={[Function]}
+            sendFooterText="Submit"
+            show={false}
+            title="Feedback"
+            width={430}
+          >
+            <styled.div
+              collapse={true}
+            >
+              <styled.div>
+                <Heading
+                  aria-label="Rate your ANZ Internet Banking experience"
+                  level="1"
+                  proLight={true}
+                  tabIndex={0}
+                >
+                  Rate your ANZ Internet Banking experience
+                </Heading>
+              </styled.div>
+            </styled.div>
+            <styled.div
+              collapse={true}
+            >
+              <styled.div>
+                <Rating
+                  callbackFromParent={[Function]}
+                />
+              </styled.div>
+              <styled.div>
+                <Styled(Heading)
+                  aria-label="Choose a star to rate"
+                  level="4"
+                  proRegularFontSize={true}
+                  tabIndex={0}
+                >
+                  Choose a star to rate
+                </Styled(Heading)>
+              </styled.div>
+              <styled.div>
+                <Accordion
+                  collapseAccordion={true}
+                  enableEnter={true}
+                  id="feedbackComments"
+                  stayOpen={false}
+                  title="Want to tell us more"
+                >
+                  <styled.div>
+                    <Heading
+                      aria-label="Comments"
+                      level="4"
+                      tabIndex={0}
+                    >
+                      Comments
+                    </Heading>
+                    <Styled(TextArea)
+                      hasTransition={true}
+                      placeholder="For your security,please do not provide any personal account  information."
+                      textAreaFunc={[Function]}
+                      transitionTiming={500}
+                    />
+                  </styled.div>
+                  <styled.div>
+                    <Heading
+                      aria-label="Need a response?"
+                      level="4"
+                      tabIndex={0}
+                    >
+                      Need a response?
+                    </Heading>
+                    <Heading
+                      aria-label="Call 131344 or send us a"
+                      level="4"
+                      tabIndex={0}
+                    >
+                      Call 
+                      <strong>
+                        13 13 44 
+                      </strong>
+                      or send us a 
+                      <a
+                        href={true}
+                        onClick={[Function]}
+                        onKeyUp={[Function]}
+                        tabIndex={0}
+                        title="Securemail"
+                      >
+                        Securemail
+                      </a>
+                      .
+                    </Heading>
+                  </styled.div>
+                  <styled.div>
+                    <Heading
+                      aria-label="Need a response?"
+                      level="4"
+                      tabIndex={0}
+                    >
+                      Need a response?
+                    </Heading>
+                    <Heading
+                      aria-label="Call  or send us a"
+                      level="4"
+                      tabIndex={0}
+                    >
+                      Call 
+                      <a
+                        aria-label="13 13 44"
+                        href="tel:131344"
+                        tabIndex={0}
+                      >
+                        13 13 44 
+                      </a>
+                      or send us a 
+                      <a
+                        href={true}
+                        onClick={[Function]}
+                        onKeyUp={[Function]}
+                        tabIndex={0}
+                        title="Securemail"
+                      >
+                        Securemail
+                      </a>
+                      .
+                    </Heading>
+                  </styled.div>
+                </Accordion>
+              </styled.div>
+            </styled.div>
+          </Modal>
+        </styled.div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Modal
+            cancelFooterText="Cancel"
+            disableCancel={false}
+            disableSend={true}
+            handleClick={[Function]}
+            onClose={[Function]}
+            sendFooterText="Submit"
+            show={false}
+            title="Feedback"
+            width={430}
+          >
+            <styled.div
+              collapse={true}
+            >
+              <styled.div>
+                <Heading
+                  aria-label="Rate your ANZ Internet Banking experience"
+                  level="1"
+                  proLight={true}
+                  tabIndex={0}
+                >
+                  Rate your ANZ Internet Banking experience
+                </Heading>
+              </styled.div>
+            </styled.div>
+            <styled.div
+              collapse={true}
+            >
+              <styled.div>
+                <Rating
+                  callbackFromParent={[Function]}
+                />
+              </styled.div>
+              <styled.div>
+                <Styled(Heading)
+                  aria-label="Choose a star to rate"
+                  level="4"
+                  proRegularFontSize={true}
+                  tabIndex={0}
+                >
+                  Choose a star to rate
+                </Styled(Heading)>
+              </styled.div>
+              <styled.div>
+                <Accordion
+                  collapseAccordion={true}
+                  enableEnter={true}
+                  id="feedbackComments"
+                  stayOpen={false}
+                  title="Want to tell us more"
+                >
+                  <styled.div>
+                    <Heading
+                      aria-label="Comments"
+                      level="4"
+                      tabIndex={0}
+                    >
+                      Comments
+                    </Heading>
+                    <Styled(TextArea)
+                      hasTransition={true}
+                      placeholder="For your security,please do not provide any personal account  information."
+                      textAreaFunc={[Function]}
+                      transitionTiming={500}
+                    />
+                  </styled.div>
+                  <styled.div>
+                    <Heading
+                      aria-label="Need a response?"
+                      level="4"
+                      tabIndex={0}
+                    >
+                      Need a response?
+                    </Heading>
+                    <Heading
+                      aria-label="Call 131344 or send us a"
+                      level="4"
+                      tabIndex={0}
+                    >
+                      Call 
+                      <strong>
+                        13 13 44 
+                      </strong>
+                      or send us a 
+                      <a
+                        href={true}
+                        onClick={[Function]}
+                        onKeyUp={[Function]}
+                        tabIndex={0}
+                        title="Securemail"
+                      >
+                        Securemail
+                      </a>
+                      .
+                    </Heading>
+                  </styled.div>
+                  <styled.div>
+                    <Heading
+                      aria-label="Need a response?"
+                      level="4"
+                      tabIndex={0}
+                    >
+                      Need a response?
+                    </Heading>
+                    <Heading
+                      aria-label="Call  or send us a"
+                      level="4"
+                      tabIndex={0}
+                    >
+                      Call 
+                      <a
+                        aria-label="13 13 44"
+                        href="tel:131344"
+                        tabIndex={0}
+                      >
+                        13 13 44 
+                      </a>
+                      or send us a 
+                      <a
+                        href={true}
+                        onClick={[Function]}
+                        onKeyUp={[Function]}
+                        tabIndex={0}
+                        title="Securemail"
+                      >
+                        Securemail
+                      </a>
+                      .
+                    </Heading>
+                  </styled.div>
+                </Accordion>
+              </styled.div>
+            </styled.div>
+          </Modal>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "cancelFooterText": "Cancel",
+            "children": Array [
+              <styled.div
+                collapse={true}
+              >
+                <styled.div>
+                  <Heading
+                    aria-label="Rate your ANZ Internet Banking experience"
+                    level="1"
+                    proLight={true}
+                    tabIndex={0}
+                  >
+                    Rate your ANZ Internet Banking experience
+                  </Heading>
+                </styled.div>
+              </styled.div>,
+              <styled.div
+                collapse={true}
+              >
+                <styled.div>
+                  <Rating
+                    callbackFromParent={[Function]}
+                  />
+                </styled.div>
+                <styled.div>
+                  <Styled(Heading)
+                    aria-label="Choose a star to rate"
+                    level="4"
+                    proRegularFontSize={true}
+                    tabIndex={0}
+                  >
+                    Choose a star to rate
+                  </Styled(Heading)>
+                </styled.div>
+                <styled.div>
+                  <Accordion
+                    collapseAccordion={true}
+                    enableEnter={true}
+                    id="feedbackComments"
+                    stayOpen={false}
+                    title="Want to tell us more"
+                  >
+                    <styled.div>
+                      <Heading
+                        aria-label="Comments"
+                        level="4"
+                        tabIndex={0}
+                      >
+                        Comments
+                      </Heading>
+                      <Styled(TextArea)
+                        hasTransition={true}
+                        placeholder="For your security,please do not provide any personal account  information."
+                        textAreaFunc={[Function]}
+                        transitionTiming={500}
+                      />
+                    </styled.div>
+                    <styled.div>
+                      <Heading
+                        aria-label="Need a response?"
+                        level="4"
+                        tabIndex={0}
+                      >
+                        Need a response?
+                      </Heading>
+                      <Heading
+                        aria-label="Call 131344 or send us a"
+                        level="4"
+                        tabIndex={0}
+                      >
+                        Call 
+                        <strong>
+                          13 13 44 
+                        </strong>
+                        or send us a 
+                        <a
+                          href={true}
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          tabIndex={0}
+                          title="Securemail"
+                        >
+                          Securemail
+                        </a>
+                        .
+                      </Heading>
+                    </styled.div>
+                    <styled.div>
+                      <Heading
+                        aria-label="Need a response?"
+                        level="4"
+                        tabIndex={0}
+                      >
+                        Need a response?
+                      </Heading>
+                      <Heading
+                        aria-label="Call  or send us a"
+                        level="4"
+                        tabIndex={0}
+                      >
+                        Call 
+                        <a
+                          aria-label="13 13 44"
+                          href="tel:131344"
+                          tabIndex={0}
+                        >
+                          13 13 44 
+                        </a>
+                        or send us a 
+                        <a
+                          href={true}
+                          onClick={[Function]}
+                          onKeyUp={[Function]}
+                          tabIndex={0}
+                          title="Securemail"
+                        >
+                          Securemail
+                        </a>
+                        .
+                      </Heading>
+                    </styled.div>
+                  </Accordion>
+                </styled.div>
+              </styled.div>,
+            ],
+            "disableCancel": false,
+            "disableSend": true,
+            "handleClick": [Function],
+            "onClose": [Function],
+            "sendFooterText": "Submit",
+            "show": false,
+            "title": "Feedback",
+            "width": 430,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <styled.div>
+                  <Heading
+                    aria-label="Rate your ANZ Internet Banking experience"
+                    level="1"
+                    proLight={true}
+                    tabIndex={0}
+                  >
+                    Rate your ANZ Internet Banking experience
+                  </Heading>
+                </styled.div>,
+                "collapse": true,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Heading
+                    aria-label="Rate your ANZ Internet Banking experience"
+                    level="1"
+                    proLight={true}
+                    tabIndex={0}
+                  >
+                    Rate your ANZ Internet Banking experience
+                  </Heading>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "aria-label": "Rate your ANZ Internet Banking experience",
+                    "children": "Rate your ANZ Internet Banking experience",
+                    "level": "1",
+                    "proLight": true,
+                    "tabIndex": 0,
+                  },
+                  "ref": null,
+                  "rendered": "Rate your ANZ Internet Banking experience",
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <styled.div>
+                    <Rating
+                      callbackFromParent={[Function]}
+                    />
+                  </styled.div>,
+                  <styled.div>
+                    <Styled(Heading)
+                      aria-label="Choose a star to rate"
+                      level="4"
+                      proRegularFontSize={true}
+                      tabIndex={0}
+                    >
+                      Choose a star to rate
+                    </Styled(Heading)>
+                  </styled.div>,
+                  <styled.div>
+                    <Accordion
+                      collapseAccordion={true}
+                      enableEnter={true}
+                      id="feedbackComments"
+                      stayOpen={false}
+                      title="Want to tell us more"
+                    >
+                      <styled.div>
+                        <Heading
+                          aria-label="Comments"
+                          level="4"
+                          tabIndex={0}
+                        >
+                          Comments
+                        </Heading>
+                        <Styled(TextArea)
+                          hasTransition={true}
+                          placeholder="For your security,please do not provide any personal account  information."
+                          textAreaFunc={[Function]}
+                          transitionTiming={500}
+                        />
+                      </styled.div>
+                      <styled.div>
+                        <Heading
+                          aria-label="Need a response?"
+                          level="4"
+                          tabIndex={0}
+                        >
+                          Need a response?
+                        </Heading>
+                        <Heading
+                          aria-label="Call 131344 or send us a"
+                          level="4"
+                          tabIndex={0}
+                        >
+                          Call 
+                          <strong>
+                            13 13 44 
+                          </strong>
+                          or send us a 
+                          <a
+                            href={true}
+                            onClick={[Function]}
+                            onKeyUp={[Function]}
+                            tabIndex={0}
+                            title="Securemail"
+                          >
+                            Securemail
+                          </a>
+                          .
+                        </Heading>
+                      </styled.div>
+                      <styled.div>
+                        <Heading
+                          aria-label="Need a response?"
+                          level="4"
+                          tabIndex={0}
+                        >
+                          Need a response?
+                        </Heading>
+                        <Heading
+                          aria-label="Call  or send us a"
+                          level="4"
+                          tabIndex={0}
+                        >
+                          Call 
+                          <a
+                            aria-label="13 13 44"
+                            href="tel:131344"
+                            tabIndex={0}
+                          >
+                            13 13 44 
+                          </a>
+                          or send us a 
+                          <a
+                            href={true}
+                            onClick={[Function]}
+                            onKeyUp={[Function]}
+                            tabIndex={0}
+                            title="Securemail"
+                          >
+                            Securemail
+                          </a>
+                          .
+                        </Heading>
+                      </styled.div>
+                    </Accordion>
+                  </styled.div>,
+                ],
+                "collapse": true,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Rating
+                      callbackFromParent={[Function]}
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "callbackFromParent": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Styled(Heading)
+                      aria-label="Choose a star to rate"
+                      level="4"
+                      proRegularFontSize={true}
+                      tabIndex={0}
+                    >
+                      Choose a star to rate
+                    </Styled(Heading)>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "aria-label": "Choose a star to rate",
+                      "children": "Choose a star to rate",
+                      "level": "4",
+                      "proRegularFontSize": true,
+                      "tabIndex": 0,
+                    },
+                    "ref": null,
+                    "rendered": "Choose a star to rate",
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Accordion
+                      collapseAccordion={true}
+                      enableEnter={true}
+                      id="feedbackComments"
+                      stayOpen={false}
+                      title="Want to tell us more"
+                    >
+                      <styled.div>
+                        <Heading
+                          aria-label="Comments"
+                          level="4"
+                          tabIndex={0}
+                        >
+                          Comments
+                        </Heading>
+                        <Styled(TextArea)
+                          hasTransition={true}
+                          placeholder="For your security,please do not provide any personal account  information."
+                          textAreaFunc={[Function]}
+                          transitionTiming={500}
+                        />
+                      </styled.div>
+                      <styled.div>
+                        <Heading
+                          aria-label="Need a response?"
+                          level="4"
+                          tabIndex={0}
+                        >
+                          Need a response?
+                        </Heading>
+                        <Heading
+                          aria-label="Call 131344 or send us a"
+                          level="4"
+                          tabIndex={0}
+                        >
+                          Call 
+                          <strong>
+                            13 13 44 
+                          </strong>
+                          or send us a 
+                          <a
+                            href={true}
+                            onClick={[Function]}
+                            onKeyUp={[Function]}
+                            tabIndex={0}
+                            title="Securemail"
+                          >
+                            Securemail
+                          </a>
+                          .
+                        </Heading>
+                      </styled.div>
+                      <styled.div>
+                        <Heading
+                          aria-label="Need a response?"
+                          level="4"
+                          tabIndex={0}
+                        >
+                          Need a response?
+                        </Heading>
+                        <Heading
+                          aria-label="Call  or send us a"
+                          level="4"
+                          tabIndex={0}
+                        >
+                          Call 
+                          <a
+                            aria-label="13 13 44"
+                            href="tel:131344"
+                            tabIndex={0}
+                          >
+                            13 13 44 
+                          </a>
+                          or send us a 
+                          <a
+                            href={true}
+                            onClick={[Function]}
+                            onKeyUp={[Function]}
+                            tabIndex={0}
+                            title="Securemail"
+                          >
+                            Securemail
+                          </a>
+                          .
+                        </Heading>
+                      </styled.div>
+                    </Accordion>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <styled.div>
+                          <Heading
+                            aria-label="Comments"
+                            level="4"
+                            tabIndex={0}
+                          >
+                            Comments
+                          </Heading>
+                          <Styled(TextArea)
+                            hasTransition={true}
+                            placeholder="For your security,please do not provide any personal account  information."
+                            textAreaFunc={[Function]}
+                            transitionTiming={500}
+                          />
+                        </styled.div>,
+                        <styled.div>
+                          <Heading
+                            aria-label="Need a response?"
+                            level="4"
+                            tabIndex={0}
+                          >
+                            Need a response?
+                          </Heading>
+                          <Heading
+                            aria-label="Call 131344 or send us a"
+                            level="4"
+                            tabIndex={0}
+                          >
+                            Call 
+                            <strong>
+                              13 13 44 
+                            </strong>
+                            or send us a 
+                            <a
+                              href={true}
+                              onClick={[Function]}
+                              onKeyUp={[Function]}
+                              tabIndex={0}
+                              title="Securemail"
+                            >
+                              Securemail
+                            </a>
+                            .
+                          </Heading>
+                        </styled.div>,
+                        <styled.div>
+                          <Heading
+                            aria-label="Need a response?"
+                            level="4"
+                            tabIndex={0}
+                          >
+                            Need a response?
+                          </Heading>
+                          <Heading
+                            aria-label="Call  or send us a"
+                            level="4"
+                            tabIndex={0}
+                          >
+                            Call 
+                            <a
+                              aria-label="13 13 44"
+                              href="tel:131344"
+                              tabIndex={0}
+                            >
+                              13 13 44 
+                            </a>
+                            or send us a 
+                            <a
+                              href={true}
+                              onClick={[Function]}
+                              onKeyUp={[Function]}
+                              tabIndex={0}
+                              title="Securemail"
+                            >
+                              Securemail
+                            </a>
+                            .
+                          </Heading>
+                        </styled.div>,
+                      ],
+                      "collapseAccordion": true,
+                      "enableEnter": true,
+                      "id": "feedbackComments",
+                      "stayOpen": false,
+                      "title": "Want to tell us more",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": Array [
+                            <Heading
+                              aria-label="Comments"
+                              level="4"
+                              tabIndex={0}
+                            >
+                              Comments
+                            </Heading>,
+                            <Styled(TextArea)
+                              hasTransition={true}
+                              placeholder="For your security,please do not provide any personal account  information."
+                              textAreaFunc={[Function]}
+                              transitionTiming={500}
+                            />,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "aria-label": "Comments",
+                              "children": "Comments",
+                              "level": "4",
+                              "tabIndex": 0,
+                            },
+                            "ref": null,
+                            "rendered": "Comments",
+                            "type": [Function],
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "hasTransition": true,
+                              "placeholder": "For your security,please do not provide any personal account  information.",
+                              "textAreaFunc": [Function],
+                              "transitionTiming": 500,
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                        ],
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": Array [
+                            <Heading
+                              aria-label="Need a response?"
+                              level="4"
+                              tabIndex={0}
+                            >
+                              Need a response?
+                            </Heading>,
+                            <Heading
+                              aria-label="Call 131344 or send us a"
+                              level="4"
+                              tabIndex={0}
+                            >
+                              Call 
+                              <strong>
+                                13 13 44 
+                              </strong>
+                              or send us a 
+                              <a
+                                href={true}
+                                onClick={[Function]}
+                                onKeyUp={[Function]}
+                                tabIndex={0}
+                                title="Securemail"
+                              >
+                                Securemail
+                              </a>
+                              .
+                            </Heading>,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "aria-label": "Need a response?",
+                              "children": "Need a response?",
+                              "level": "4",
+                              "tabIndex": 0,
+                            },
+                            "ref": null,
+                            "rendered": "Need a response?",
+                            "type": [Function],
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "aria-label": "Call 131344 or send us a",
+                              "children": Array [
+                                "Call ",
+                                <strong>
+                                  13 13 44 
+                                </strong>,
+                                "or send us a ",
+                                <a
+                                  href={true}
+                                  onClick={[Function]}
+                                  onKeyUp={[Function]}
+                                  tabIndex={0}
+                                  title="Securemail"
+                                >
+                                  Securemail
+                                </a>,
+                                ".",
+                              ],
+                              "level": "4",
+                              "tabIndex": 0,
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              "Call ",
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "13 13 44 ",
+                                },
+                                "ref": null,
+                                "rendered": "13 13 44 ",
+                                "type": "strong",
+                              },
+                              "or send us a ",
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "Securemail",
+                                  "href": true,
+                                  "onClick": [Function],
+                                  "onKeyUp": [Function],
+                                  "tabIndex": 0,
+                                  "title": "Securemail",
+                                },
+                                "ref": null,
+                                "rendered": "Securemail",
+                                "type": "a",
+                              },
+                              ".",
+                            ],
+                            "type": [Function],
+                          },
+                        ],
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": Array [
+                            <Heading
+                              aria-label="Need a response?"
+                              level="4"
+                              tabIndex={0}
+                            >
+                              Need a response?
+                            </Heading>,
+                            <Heading
+                              aria-label="Call  or send us a"
+                              level="4"
+                              tabIndex={0}
+                            >
+                              Call 
+                              <a
+                                aria-label="13 13 44"
+                                href="tel:131344"
+                                tabIndex={0}
+                              >
+                                13 13 44 
+                              </a>
+                              or send us a 
+                              <a
+                                href={true}
+                                onClick={[Function]}
+                                onKeyUp={[Function]}
+                                tabIndex={0}
+                                title="Securemail"
+                              >
+                                Securemail
+                              </a>
+                              .
+                            </Heading>,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "aria-label": "Need a response?",
+                              "children": "Need a response?",
+                              "level": "4",
+                              "tabIndex": 0,
+                            },
+                            "ref": null,
+                            "rendered": "Need a response?",
+                            "type": [Function],
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "aria-label": "Call  or send us a",
+                              "children": Array [
+                                "Call ",
+                                <a
+                                  aria-label="13 13 44"
+                                  href="tel:131344"
+                                  tabIndex={0}
+                                >
+                                  13 13 44 
+                                </a>,
+                                "or send us a ",
+                                <a
+                                  href={true}
+                                  onClick={[Function]}
+                                  onKeyUp={[Function]}
+                                  tabIndex={0}
+                                  title="Securemail"
+                                >
+                                  Securemail
+                                </a>,
+                                ".",
+                              ],
+                              "level": "4",
+                              "tabIndex": 0,
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              "Call ",
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "aria-label": "13 13 44",
+                                  "children": "13 13 44 ",
+                                  "href": "tel:131344",
+                                  "tabIndex": 0,
+                                },
+                                "ref": null,
+                                "rendered": "13 13 44 ",
+                                "type": "a",
+                              },
+                              "or send us a ",
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "Securemail",
+                                  "href": true,
+                                  "onClick": [Function],
+                                  "onKeyUp": [Function],
+                                  "tabIndex": 0,
+                                  "title": "Securemail",
+                                },
+                                "ref": null,
+                                "rendered": "Securemail",
+                                "type": "a",
+                              },
+                              ".",
+                            ],
+                            "type": [Function],
+                          },
+                        ],
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "attachTo": <body />,
+  },
+}
+`;

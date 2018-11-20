@@ -1,0 +1,26 @@
+{
+  "default": {
+    "baseUrl": "http://localhost:8080",
+    "seleniumServerHost": "dcspa02l.unix.anz",
+    "seleniumServerPort": "4444",
+    "mountebankUrl": "http://localhost:2525"
+  },
+  "ci": {
+    "baseUrl": "http://{ciHost}:{ciWebPort}/skeleton/",
+    "seleniumServerHost": "dcspa02l.unix.anz",
+    "seleniumServerPort": "4444",
+    "mountebankUrl":"http://{ciHost}:{ciMbPort}"
+  },
+  "sit": {
+    "baseUrl": "http://{ciHost}:{ciWebPort}/skeleton/",
+    "seleniumServerHost": "dcspa02l.unix.anz",
+    "seleniumServerPort": "4444",
+    "mountebankUrl":"http://{ciHost}:{ciMbPort}"
+  },
+  "ci-headless": {
+    "baseUrl": "http://{ciHost}:{ciWebPort}/skeleton/",
+    "seleniumServerHost": "{ciHost}",
+    "seleniumServerPort": "4444",
+    "mountebankUrl":"http://{ciHost}:{ciMbPort}"
+  }
+}

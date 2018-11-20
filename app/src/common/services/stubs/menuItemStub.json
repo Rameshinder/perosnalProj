@@ -1,0 +1,6 @@
+[
+    {"menuName": "Payments", "showHideFlag" : true},
+    {"menuName": "Profile", "showHideFlag" : true},
+    {"menuName": "Products", "showHideFlag" : true},
+    {"menuName": "PFM", "showHideFlag" : false}
+]

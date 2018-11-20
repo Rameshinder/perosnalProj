@@ -1,0 +1,62 @@
+{
+  "setupTestFrameworkScriptFile": "./setupTests.js",
+  "collectCoverage": true,
+  "testMatch": [
+    "**/app/src/**/*.test.js"
+  ],
+  "testPathIgnorePatterns": [
+    "node_modules",
+    "public",
+    "dist",
+    "reports",
+    "./app/src/components/global/AutoLogout",
+    "./app/src/common/lib"
+
+  ],
+  "collectCoverageFrom": [
+    "app/src/components/**/*.js",
+    "app/src/actions/**/*.js",
+    "app/src/reducers/**/*.js",
+    "app/src/common/**/*.js",
+    "!**/node_modules/**"
+  ],
+  "moduleFileExtensions": [
+    "js"
+  ],
+  "coverageDirectory": "./reports/unit/jest/",
+  "coveragePathIgnorePatterns": [
+    "/node_modules/",
+    "/build/",
+    "/reports/",
+    "./app/src/components/global/AutoLogout",
+    "./app/src/common/lib"
+  ],
+  "coverageReporters": [
+    "json",
+    "html",
+    "lcov",
+    "text"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "statements": 85.00,
+      "branches": 75.00,
+      "functions": 85.00,
+      "lines": 85.00
+    }
+  },
+  "moduleNameMapper": {
+    "^image![a-zA-Z0-9$_-]+$": "GlobalImageStub",
+    "^[./a-zA-Z0-9$_-]+\\.png$": "<rootDir>/test/helpers/assetsTransformer.js"
+  },
+  "testResultsProcessor": "./app/config/jest/resultsProcessor",
+  "verbose": true,
+  "jest-junit": {
+    "suiteName": "IB-UI Unit Tests",
+    "output": "./reports/unit/junit.xml"
+  },
+  "globals": {
+    "PEP_URL": "abc",
+    "__ENV__": "DEV"
+  }
+}

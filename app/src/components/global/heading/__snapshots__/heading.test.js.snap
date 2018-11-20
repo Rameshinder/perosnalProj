@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Heading /> Should match snapshot 1`] = `
+.c0 {
+  font-family: myriad-pro;
+  font-weight: 600;
+  line-height: 32px;
+  font-size: 32px;
+  -webkit-letter-spacing: -0.25px;
+  -moz-letter-spacing: -0.25px;
+  -ms-letter-spacing: -0.25px;
+  letter-spacing: -0.25px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+@media (max-width:480px) {
+  .c0 {
+    font-size: 28px;
+  }
+}
+
+<Heading>
+  <styled.h1>
+    <h1
+      className="c0"
+    />
+  </styled.h1>
+</Heading>
+`;
+
+exports[`<Heading /> Should match snapshot for H1 1`] = `
+.c0 {
+  font-family: myriad-pro;
+  font-weight: 600;
+  line-height: 32px;
+  font-size: 32px;
+  -webkit-letter-spacing: -0.25px;
+  -moz-letter-spacing: -0.25px;
+  -ms-letter-spacing: -0.25px;
+  letter-spacing: -0.25px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+@media (max-width:480px) {
+  .c0 {
+    font-size: 28px;
+  }
+}
+
+<styled.h1>
+  <h1
+    className="c0"
+  />
+</styled.h1>
+`;
+
+exports[`<Heading /> Should match snapshot for H1 with Lightweight font prop 1`] = `
+.c0 {
+  font-family: myriad-pro;
+  font-weight: 600;
+  line-height: 32px;
+  font-size: 32px;
+  -webkit-letter-spacing: -0.25px;
+  -moz-letter-spacing: -0.25px;
+  -ms-letter-spacing: -0.25px;
+  letter-spacing: -0.25px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 300;
+}
+
+@media (max-width:480px) {
+  .c0 {
+    font-size: 28px;
+  }
+}
+
+<styled.h1
+  proLight={true}
+>
+  <h1
+    className="c0"
+  />
+</styled.h1>
+`;
+
+exports[`<Heading /> Should match snapshot for H2 1`] = `
+.c0 {
+  font-family: myriad-pro;
+  font-weight: 300;
+  line-height: 32px;
+  font-size: 26px;
+  -webkit-letter-spacing: -0.25px;
+  -moz-letter-spacing: -0.25px;
+  -ms-letter-spacing: -0.25px;
+  letter-spacing: -0.25px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+@media (max-width:480px) {
+  .c0 {
+    font-size: 23px;
+  }
+}
+
+<styled.h2>
+  <h2
+    className="c0"
+  />
+</styled.h2>
+`;
+
+exports[`<Heading /> Should match snapshot for H3 1`] = `
+.c0 {
+  font-family: myriad-pro;
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 20px;
+  -webkit-letter-spacing: -0.1px;
+  -moz-letter-spacing: -0.1px;
+  -ms-letter-spacing: -0.1px;
+  letter-spacing: -0.1px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+<styled.h3>
+  <h3
+    className="c0"
+  />
+</styled.h3>
+`;
+
+exports[`<Heading /> Should match snapshot for H3 with proLight font 1`] = `
+.c0 {
+  font-family: myriad-pro;
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 20px;
+  -webkit-letter-spacing: -0.1px;
+  -moz-letter-spacing: -0.1px;
+  -ms-letter-spacing: -0.1px;
+  letter-spacing: -0.1px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 300;
+}
+
+<styled.h3
+  proLight={true}
+>
+  <h3
+    className="c0"
+  />
+</styled.h3>
+`;
+
+exports[`<Heading /> Should match snapshot for P 1`] = `
+.c0 {
+  font-family: myriad-pro;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px;
+  -webkit-letter-spacing: -0.1px;
+  -moz-letter-spacing: -0.1px;
+  -ms-letter-spacing: -0.1px;
+  letter-spacing: -0.1px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+<styled.p>
+  <p
+    className="c0"
+  />
+</styled.p>
+`;
+
+exports[`<Heading /> Should match snapshot for P proRegular FontSize 1`] = `
+.c0 {
+  font-family: myriad-pro;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px;
+  -webkit-letter-spacing: -0.1px;
+  -moz-letter-spacing: -0.1px;
+  -ms-letter-spacing: -0.1px;
+  letter-spacing: -0.1px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 14px;
+  -webkit-letter-spacing: 0px;
+  -moz-letter-spacing: 0px;
+  -ms-letter-spacing: 0px;
+  letter-spacing: 0px;
+}
+
+<styled.p
+  proRegularFontSize={true}
+>
+  <p
+    className="c0"
+  />
+</styled.p>
+`;
+
+exports[`<Heading /> Should match snapshot for P with semiBold font 1`] = `
+.c0 {
+  font-family: myriad-pro;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px;
+  -webkit-letter-spacing: -0.1px;
+  -moz-letter-spacing: -0.1px;
+  -ms-letter-spacing: -0.1px;
+  letter-spacing: -0.1px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+<styled.p
+  semiBold={true}
+>
+  <p
+    className="c0"
+  />
+</styled.p>
+`;

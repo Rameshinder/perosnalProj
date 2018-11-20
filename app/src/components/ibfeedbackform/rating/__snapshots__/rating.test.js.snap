@@ -1,0 +1,1693 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rating renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Rating />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <styled.div>
+        <styled.input
+          id="1-star"
+          name="rating"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          tabIndex={4}
+          type="radio"
+          value="1"
+        />
+        <label
+          className="star"
+          htmlFor="1-star"
+        >
+          <styled.span
+            aria-label="1-rating-star"
+            onKeyUp={[Function]}
+            tabIndex={0}
+          >
+            <Icon
+              color="#fff"
+              iconName="Rating Star Unselected"
+              id="starrate"
+              styles={
+                Object {
+                  "stroke": "#ababab",
+                  "strokeLinejoin": "round",
+                  "strokeWidth": "3",
+                  "transform": "translate(1,2)",
+                }
+              }
+              viewBox="0 0 40 40"
+            />
+          </styled.span>
+        </label>
+        <styled.input
+          id="2-stars"
+          name="rating"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          tabIndex={3}
+          type="radio"
+          value="2"
+        />
+        <label
+          className="star"
+          htmlFor="2-stars"
+        >
+          <styled.span
+            aria-label="2-rating-star"
+            onKeyUp={[Function]}
+            tabIndex={0}
+          >
+            <Icon
+              color="#fff"
+              iconName="Rating Star Unselected"
+              id="starrate"
+              styles={
+                Object {
+                  "stroke": "#ababab",
+                  "strokeLinejoin": "round",
+                  "strokeWidth": "3",
+                  "transform": "translate(1,2)",
+                }
+              }
+              viewBox="0 0 40 40"
+            />
+          </styled.span>
+        </label>
+        <styled.input
+          id="3-stars"
+          name="rating"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          tabIndex={2}
+          type="radio"
+          value="3"
+        />
+        <label
+          className="star"
+          htmlFor="3-stars"
+        >
+          <styled.span
+            aria-label="3-rating-star"
+            onKeyUp={[Function]}
+            tabIndex={0}
+          >
+            <Icon
+              color="#fff"
+              iconName="Rating Star Unselected"
+              id="starrate"
+              styles={
+                Object {
+                  "stroke": "#ababab",
+                  "strokeLinejoin": "round",
+                  "strokeWidth": "3",
+                  "transform": "translate(1,2)",
+                }
+              }
+              viewBox="0 0 40 40"
+            />
+          </styled.span>
+        </label>
+        <styled.input
+          id="4-stars"
+          name="rating"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          tabIndex={1}
+          type="radio"
+          value="4"
+        />
+        <label
+          className="star"
+          htmlFor="4-stars"
+        >
+          <styled.span
+            aria-label="4-rating-star"
+            onKeyUp={[Function]}
+            tabIndex={0}
+          >
+            <Icon
+              color="#fff"
+              iconName="Rating Star Unselected"
+              id="starrate"
+              styles={
+                Object {
+                  "stroke": "#ababab",
+                  "strokeLinejoin": "round",
+                  "strokeWidth": "3",
+                  "transform": "translate(1,2)",
+                }
+              }
+              viewBox="0 0 40 40"
+            />
+          </styled.span>
+        </label>
+        <styled.input
+          id="5-stars"
+          name="rating"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          tabIndex={0}
+          type="radio"
+          value="5"
+        />
+        <label
+          className="star"
+          htmlFor="5-stars"
+        >
+          <styled.span
+            aria-label="5-rating-star"
+            onKeyUp={[Function]}
+            tabIndex={0}
+          >
+            <Icon
+              color="#fff"
+              iconName="Rating Star Unselected"
+              id="starrate"
+              styles={
+                Object {
+                  "stroke": "#ababab",
+                  "strokeLinejoin": "round",
+                  "strokeWidth": "3",
+                  "transform": "translate(1,2)",
+                }
+              }
+              viewBox="0 0 40 40"
+            />
+          </styled.span>
+        </label>
+      </styled.div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <styled.input
+            id="1-star"
+            name="rating"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            tabIndex={4}
+            type="radio"
+            value="1"
+          />,
+          <label
+            className="star"
+            htmlFor="1-star"
+          >
+            <styled.span
+              aria-label="1-rating-star"
+              onKeyUp={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />
+            </styled.span>
+          </label>,
+          <styled.input
+            id="2-stars"
+            name="rating"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            tabIndex={3}
+            type="radio"
+            value="2"
+          />,
+          <label
+            className="star"
+            htmlFor="2-stars"
+          >
+            <styled.span
+              aria-label="2-rating-star"
+              onKeyUp={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />
+            </styled.span>
+          </label>,
+          <styled.input
+            id="3-stars"
+            name="rating"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            tabIndex={2}
+            type="radio"
+            value="3"
+          />,
+          <label
+            className="star"
+            htmlFor="3-stars"
+          >
+            <styled.span
+              aria-label="3-rating-star"
+              onKeyUp={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />
+            </styled.span>
+          </label>,
+          <styled.input
+            id="4-stars"
+            name="rating"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            tabIndex={1}
+            type="radio"
+            value="4"
+          />,
+          <label
+            className="star"
+            htmlFor="4-stars"
+          >
+            <styled.span
+              aria-label="4-rating-star"
+              onKeyUp={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />
+            </styled.span>
+          </label>,
+          <styled.input
+            id="5-stars"
+            name="rating"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            tabIndex={0}
+            type="radio"
+            value="5"
+          />,
+          <label
+            className="star"
+            htmlFor="5-stars"
+          >
+            <styled.span
+              aria-label="5-rating-star"
+              onKeyUp={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />
+            </styled.span>
+          </label>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "id": "1-star",
+            "name": "rating",
+            "onClick": [Function],
+            "onKeyPress": [Function],
+            "tabIndex": 4,
+            "type": "radio",
+            "value": "1",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <styled.span
+              aria-label="1-rating-star"
+              onKeyUp={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />
+            </styled.span>,
+            "className": "star",
+            "htmlFor": "1-star",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "aria-label": "1-rating-star",
+              "children": <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />,
+              "onKeyUp": [Function],
+              "tabIndex": 0,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#fff",
+                "iconName": "Rating Star Unselected",
+                "id": "starrate",
+                "styles": Object {
+                  "stroke": "#ababab",
+                  "strokeLinejoin": "round",
+                  "strokeWidth": "3",
+                  "transform": "translate(1,2)",
+                },
+                "viewBox": "0 0 40 40",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "id": "2-stars",
+            "name": "rating",
+            "onClick": [Function],
+            "onKeyPress": [Function],
+            "tabIndex": 3,
+            "type": "radio",
+            "value": "2",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <styled.span
+              aria-label="2-rating-star"
+              onKeyUp={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />
+            </styled.span>,
+            "className": "star",
+            "htmlFor": "2-stars",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "aria-label": "2-rating-star",
+              "children": <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />,
+              "onKeyUp": [Function],
+              "tabIndex": 0,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#fff",
+                "iconName": "Rating Star Unselected",
+                "id": "starrate",
+                "styles": Object {
+                  "stroke": "#ababab",
+                  "strokeLinejoin": "round",
+                  "strokeWidth": "3",
+                  "transform": "translate(1,2)",
+                },
+                "viewBox": "0 0 40 40",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "id": "3-stars",
+            "name": "rating",
+            "onClick": [Function],
+            "onKeyPress": [Function],
+            "tabIndex": 2,
+            "type": "radio",
+            "value": "3",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <styled.span
+              aria-label="3-rating-star"
+              onKeyUp={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />
+            </styled.span>,
+            "className": "star",
+            "htmlFor": "3-stars",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "aria-label": "3-rating-star",
+              "children": <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />,
+              "onKeyUp": [Function],
+              "tabIndex": 0,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#fff",
+                "iconName": "Rating Star Unselected",
+                "id": "starrate",
+                "styles": Object {
+                  "stroke": "#ababab",
+                  "strokeLinejoin": "round",
+                  "strokeWidth": "3",
+                  "transform": "translate(1,2)",
+                },
+                "viewBox": "0 0 40 40",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "id": "4-stars",
+            "name": "rating",
+            "onClick": [Function],
+            "onKeyPress": [Function],
+            "tabIndex": 1,
+            "type": "radio",
+            "value": "4",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <styled.span
+              aria-label="4-rating-star"
+              onKeyUp={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />
+            </styled.span>,
+            "className": "star",
+            "htmlFor": "4-stars",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "aria-label": "4-rating-star",
+              "children": <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />,
+              "onKeyUp": [Function],
+              "tabIndex": 0,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#fff",
+                "iconName": "Rating Star Unselected",
+                "id": "starrate",
+                "styles": Object {
+                  "stroke": "#ababab",
+                  "strokeLinejoin": "round",
+                  "strokeWidth": "3",
+                  "transform": "translate(1,2)",
+                },
+                "viewBox": "0 0 40 40",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "id": "5-stars",
+            "name": "rating",
+            "onClick": [Function],
+            "onKeyPress": [Function],
+            "tabIndex": 0,
+            "type": "radio",
+            "value": "5",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <styled.span
+              aria-label="5-rating-star"
+              onKeyUp={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />
+            </styled.span>,
+            "className": "star",
+            "htmlFor": "5-stars",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "aria-label": "5-rating-star",
+              "children": <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />,
+              "onKeyUp": [Function],
+              "tabIndex": 0,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#fff",
+                "iconName": "Rating Star Unselected",
+                "id": "starrate",
+                "styles": Object {
+                  "stroke": "#ababab",
+                  "strokeLinejoin": "round",
+                  "strokeWidth": "3",
+                  "transform": "translate(1,2)",
+                },
+                "viewBox": "0 0 40 40",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": "label",
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <styled.div>
+          <styled.input
+            id="1-star"
+            name="rating"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            tabIndex={4}
+            type="radio"
+            value="1"
+          />
+          <label
+            className="star"
+            htmlFor="1-star"
+          >
+            <styled.span
+              aria-label="1-rating-star"
+              onKeyUp={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />
+            </styled.span>
+          </label>
+          <styled.input
+            id="2-stars"
+            name="rating"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            tabIndex={3}
+            type="radio"
+            value="2"
+          />
+          <label
+            className="star"
+            htmlFor="2-stars"
+          >
+            <styled.span
+              aria-label="2-rating-star"
+              onKeyUp={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />
+            </styled.span>
+          </label>
+          <styled.input
+            id="3-stars"
+            name="rating"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            tabIndex={2}
+            type="radio"
+            value="3"
+          />
+          <label
+            className="star"
+            htmlFor="3-stars"
+          >
+            <styled.span
+              aria-label="3-rating-star"
+              onKeyUp={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />
+            </styled.span>
+          </label>
+          <styled.input
+            id="4-stars"
+            name="rating"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            tabIndex={1}
+            type="radio"
+            value="4"
+          />
+          <label
+            className="star"
+            htmlFor="4-stars"
+          >
+            <styled.span
+              aria-label="4-rating-star"
+              onKeyUp={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />
+            </styled.span>
+          </label>
+          <styled.input
+            id="5-stars"
+            name="rating"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            tabIndex={0}
+            type="radio"
+            value="5"
+          />
+          <label
+            className="star"
+            htmlFor="5-stars"
+          >
+            <styled.span
+              aria-label="5-rating-star"
+              onKeyUp={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                color="#fff"
+                iconName="Rating Star Unselected"
+                id="starrate"
+                styles={
+                  Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  }
+                }
+                viewBox="0 0 40 40"
+              />
+            </styled.span>
+          </label>
+        </styled.div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <styled.input
+              id="1-star"
+              name="rating"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex={4}
+              type="radio"
+              value="1"
+            />,
+            <label
+              className="star"
+              htmlFor="1-star"
+            >
+              <styled.span
+                aria-label="1-rating-star"
+                onKeyUp={[Function]}
+                tabIndex={0}
+              >
+                <Icon
+                  color="#fff"
+                  iconName="Rating Star Unselected"
+                  id="starrate"
+                  styles={
+                    Object {
+                      "stroke": "#ababab",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "3",
+                      "transform": "translate(1,2)",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                />
+              </styled.span>
+            </label>,
+            <styled.input
+              id="2-stars"
+              name="rating"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex={3}
+              type="radio"
+              value="2"
+            />,
+            <label
+              className="star"
+              htmlFor="2-stars"
+            >
+              <styled.span
+                aria-label="2-rating-star"
+                onKeyUp={[Function]}
+                tabIndex={0}
+              >
+                <Icon
+                  color="#fff"
+                  iconName="Rating Star Unselected"
+                  id="starrate"
+                  styles={
+                    Object {
+                      "stroke": "#ababab",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "3",
+                      "transform": "translate(1,2)",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                />
+              </styled.span>
+            </label>,
+            <styled.input
+              id="3-stars"
+              name="rating"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex={2}
+              type="radio"
+              value="3"
+            />,
+            <label
+              className="star"
+              htmlFor="3-stars"
+            >
+              <styled.span
+                aria-label="3-rating-star"
+                onKeyUp={[Function]}
+                tabIndex={0}
+              >
+                <Icon
+                  color="#fff"
+                  iconName="Rating Star Unselected"
+                  id="starrate"
+                  styles={
+                    Object {
+                      "stroke": "#ababab",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "3",
+                      "transform": "translate(1,2)",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                />
+              </styled.span>
+            </label>,
+            <styled.input
+              id="4-stars"
+              name="rating"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex={1}
+              type="radio"
+              value="4"
+            />,
+            <label
+              className="star"
+              htmlFor="4-stars"
+            >
+              <styled.span
+                aria-label="4-rating-star"
+                onKeyUp={[Function]}
+                tabIndex={0}
+              >
+                <Icon
+                  color="#fff"
+                  iconName="Rating Star Unselected"
+                  id="starrate"
+                  styles={
+                    Object {
+                      "stroke": "#ababab",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "3",
+                      "transform": "translate(1,2)",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                />
+              </styled.span>
+            </label>,
+            <styled.input
+              id="5-stars"
+              name="rating"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex={0}
+              type="radio"
+              value="5"
+            />,
+            <label
+              className="star"
+              htmlFor="5-stars"
+            >
+              <styled.span
+                aria-label="5-rating-star"
+                onKeyUp={[Function]}
+                tabIndex={0}
+              >
+                <Icon
+                  color="#fff"
+                  iconName="Rating Star Unselected"
+                  id="starrate"
+                  styles={
+                    Object {
+                      "stroke": "#ababab",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "3",
+                      "transform": "translate(1,2)",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                />
+              </styled.span>
+            </label>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "id": "1-star",
+              "name": "rating",
+              "onClick": [Function],
+              "onKeyPress": [Function],
+              "tabIndex": 4,
+              "type": "radio",
+              "value": "1",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <styled.span
+                aria-label="1-rating-star"
+                onKeyUp={[Function]}
+                tabIndex={0}
+              >
+                <Icon
+                  color="#fff"
+                  iconName="Rating Star Unselected"
+                  id="starrate"
+                  styles={
+                    Object {
+                      "stroke": "#ababab",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "3",
+                      "transform": "translate(1,2)",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                />
+              </styled.span>,
+              "className": "star",
+              "htmlFor": "1-star",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "aria-label": "1-rating-star",
+                "children": <Icon
+                  color="#fff"
+                  iconName="Rating Star Unselected"
+                  id="starrate"
+                  styles={
+                    Object {
+                      "stroke": "#ababab",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "3",
+                      "transform": "translate(1,2)",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                />,
+                "onKeyUp": [Function],
+                "tabIndex": 0,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#fff",
+                  "iconName": "Rating Star Unselected",
+                  "id": "starrate",
+                  "styles": Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  },
+                  "viewBox": "0 0 40 40",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "id": "2-stars",
+              "name": "rating",
+              "onClick": [Function],
+              "onKeyPress": [Function],
+              "tabIndex": 3,
+              "type": "radio",
+              "value": "2",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <styled.span
+                aria-label="2-rating-star"
+                onKeyUp={[Function]}
+                tabIndex={0}
+              >
+                <Icon
+                  color="#fff"
+                  iconName="Rating Star Unselected"
+                  id="starrate"
+                  styles={
+                    Object {
+                      "stroke": "#ababab",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "3",
+                      "transform": "translate(1,2)",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                />
+              </styled.span>,
+              "className": "star",
+              "htmlFor": "2-stars",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "aria-label": "2-rating-star",
+                "children": <Icon
+                  color="#fff"
+                  iconName="Rating Star Unselected"
+                  id="starrate"
+                  styles={
+                    Object {
+                      "stroke": "#ababab",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "3",
+                      "transform": "translate(1,2)",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                />,
+                "onKeyUp": [Function],
+                "tabIndex": 0,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#fff",
+                  "iconName": "Rating Star Unselected",
+                  "id": "starrate",
+                  "styles": Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  },
+                  "viewBox": "0 0 40 40",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "id": "3-stars",
+              "name": "rating",
+              "onClick": [Function],
+              "onKeyPress": [Function],
+              "tabIndex": 2,
+              "type": "radio",
+              "value": "3",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <styled.span
+                aria-label="3-rating-star"
+                onKeyUp={[Function]}
+                tabIndex={0}
+              >
+                <Icon
+                  color="#fff"
+                  iconName="Rating Star Unselected"
+                  id="starrate"
+                  styles={
+                    Object {
+                      "stroke": "#ababab",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "3",
+                      "transform": "translate(1,2)",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                />
+              </styled.span>,
+              "className": "star",
+              "htmlFor": "3-stars",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "aria-label": "3-rating-star",
+                "children": <Icon
+                  color="#fff"
+                  iconName="Rating Star Unselected"
+                  id="starrate"
+                  styles={
+                    Object {
+                      "stroke": "#ababab",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "3",
+                      "transform": "translate(1,2)",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                />,
+                "onKeyUp": [Function],
+                "tabIndex": 0,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#fff",
+                  "iconName": "Rating Star Unselected",
+                  "id": "starrate",
+                  "styles": Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  },
+                  "viewBox": "0 0 40 40",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "id": "4-stars",
+              "name": "rating",
+              "onClick": [Function],
+              "onKeyPress": [Function],
+              "tabIndex": 1,
+              "type": "radio",
+              "value": "4",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <styled.span
+                aria-label="4-rating-star"
+                onKeyUp={[Function]}
+                tabIndex={0}
+              >
+                <Icon
+                  color="#fff"
+                  iconName="Rating Star Unselected"
+                  id="starrate"
+                  styles={
+                    Object {
+                      "stroke": "#ababab",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "3",
+                      "transform": "translate(1,2)",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                />
+              </styled.span>,
+              "className": "star",
+              "htmlFor": "4-stars",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "aria-label": "4-rating-star",
+                "children": <Icon
+                  color="#fff"
+                  iconName="Rating Star Unselected"
+                  id="starrate"
+                  styles={
+                    Object {
+                      "stroke": "#ababab",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "3",
+                      "transform": "translate(1,2)",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                />,
+                "onKeyUp": [Function],
+                "tabIndex": 0,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#fff",
+                  "iconName": "Rating Star Unselected",
+                  "id": "starrate",
+                  "styles": Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  },
+                  "viewBox": "0 0 40 40",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "id": "5-stars",
+              "name": "rating",
+              "onClick": [Function],
+              "onKeyPress": [Function],
+              "tabIndex": 0,
+              "type": "radio",
+              "value": "5",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <styled.span
+                aria-label="5-rating-star"
+                onKeyUp={[Function]}
+                tabIndex={0}
+              >
+                <Icon
+                  color="#fff"
+                  iconName="Rating Star Unselected"
+                  id="starrate"
+                  styles={
+                    Object {
+                      "stroke": "#ababab",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "3",
+                      "transform": "translate(1,2)",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                />
+              </styled.span>,
+              "className": "star",
+              "htmlFor": "5-stars",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "aria-label": "5-rating-star",
+                "children": <Icon
+                  color="#fff"
+                  iconName="Rating Star Unselected"
+                  id="starrate"
+                  styles={
+                    Object {
+                      "stroke": "#ababab",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "3",
+                      "transform": "translate(1,2)",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                />,
+                "onKeyUp": [Function],
+                "tabIndex": 0,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#fff",
+                  "iconName": "Rating Star Unselected",
+                  "id": "starrate",
+                  "styles": Object {
+                    "stroke": "#ababab",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "3",
+                    "transform": "translate(1,2)",
+                  },
+                  "viewBox": "0 0 40 40",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": "label",
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
